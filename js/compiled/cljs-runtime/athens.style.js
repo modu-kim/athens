@@ -9,8 +9,8 @@ athens.style.ZINDICES = new cljs.core.PersistentArrayMap(null, 7, [new cljs.core
  *   Only accepts keywords.
  */
 athens.style.color = (function athens$style$color(var_args){
-var G__61208 = arguments.length;
-switch (G__61208) {
+var G__61214 = arguments.length;
+switch (G__61214) {
 case 1:
 return athens.style.color.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -50,10 +50,10 @@ athens.style.app_styles = new cljs.core.PersistentArrayMap(null, 3, [new cljs.co
  *   There are 5 opacities and 12 colors. There are 72 keys (includes default opacity, 1.0)
  */
 athens.style.permute_color_opacities = (function athens$style$permute_color_opacities(theme){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__61219){
-var vec__61221 = p__61219;
-var color_k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61221,(0),null);
-var color_v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61221,(1),null);
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__61221){
+var vec__61222 = p__61221;
+var color_k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61222,(0),null);
+var color_v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61222,(1),null);
 return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(["--",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(color_k))].join('')),color_v], null),cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__61225){
 var vec__61226 = p__61225;
 var opacity_k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61226,(0),null);

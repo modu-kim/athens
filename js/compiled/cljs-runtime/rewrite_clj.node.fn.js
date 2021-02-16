@@ -66,8 +66,8 @@ var base = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(i,(0)))?"rest__":["p",
 var s = cljs.core.name(cljs.core.gensym.cljs$core$IFn$_invoke$arity$1(base));
 cljs.core.chunk_append(b__29515,cljs.core.symbol.cljs$core$IFn$_invoke$arity$1([s,"#"].join('')));
 
-var G__29545 = (i__29514 + (1));
-i__29514 = G__29545;
+var G__29541 = (i__29514 + (1));
+i__29514 = G__29541;
 continue;
 } else {
 return true;
@@ -167,9 +167,9 @@ return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k29517,else__
 var self__ = this;
 var this__4399__auto____$1 = this;
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4402__auto__,p__29522){
-var vec__29526 = p__29522;
-var k__4403__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29526,(0),null);
-var v__4404__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29526,(1),null);
+var vec__29523 = p__29522;
+var k__4403__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29523,(0),null);
+var v__4404__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29523,(1),null);
 return (f__4400__auto__.cljs$core$IFn$_invoke$arity$3 ? f__4400__auto__.cljs$core$IFn$_invoke$arity$3(ret__4402__auto__,k__4403__auto__,v__4404__auto__) : f__4400__auto__.call(null,ret__4402__auto__,k__4403__auto__,v__4404__auto__));
 }),init__4401__auto__,this__4399__auto____$1);
 }));
@@ -350,11 +350,11 @@ return (new rewrite_clj.node.fn.FnNode(children,null,null,null));
  * Factory function for rewrite-clj.node.fn/FnNode, taking a map of keywords to field values.
  */
 rewrite_clj.node.fn.map__GT_FnNode = (function rewrite_clj$node$fn$map__GT_FnNode(G__29520){
-var extmap__4419__auto__ = (function (){var G__29540 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29520,new cljs.core.Keyword(null,"children","children",-940561982));
+var extmap__4419__auto__ = (function (){var G__29539 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29520,new cljs.core.Keyword(null,"children","children",-940561982));
 if(cljs.core.record_QMARK_(G__29520)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29540);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29539);
 } else {
-return G__29540;
+return G__29539;
 }
 })();
 return (new rewrite_clj.node.fn.FnNode(new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(G__29520),null,cljs.core.not_empty(extmap__4419__auto__),null));
