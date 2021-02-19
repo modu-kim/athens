@@ -10,14 +10,14 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(env__$1,new cljs.cor
 sci.impl.opts.presets = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"termination-safe","termination-safe",-1845225130),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"deny","deny",1589338523),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"loop","loop",1244978678,null),new cljs.core.Symbol(null,"recur","recur",1202958259,null),new cljs.core.Symbol(null,"trampoline","trampoline",-71368916,null),new cljs.core.Symbol(null,"resolve","resolve",56086045,null)], null),new cljs.core.Keyword(null,"realize-max","realize-max",-1846442543),(100)], null)], null);
 sci.impl.opts.process_permissions = (function sci$impl$opts$process_permissions(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___63086 = arguments.length;
+var len__4736__auto___63084 = arguments.length;
 var i__4737__auto___63087 = (0);
 while(true){
-if((i__4737__auto___63087 < len__4736__auto___63086)){
+if((i__4737__auto___63087 < len__4736__auto___63084)){
 args__4742__auto__.push((arguments[i__4737__auto___63087]));
 
-var G__63089 = (i__4737__auto___63087 + (1));
-i__4737__auto___63087 = G__63089;
+var G__63088 = (i__4737__auto___63087 + (1));
+i__4737__auto___63087 = G__63088;
 continue;
 } else {
 }

@@ -6,8 +6,8 @@ goog.provide('zprint.core');
  *   options-map values that will be merged into the internal options-map.
  */
 zprint.core.set_options_BANG_ = (function zprint$core$set_options_BANG_(var_args){
-var G__31211 = arguments.length;
-switch (G__31211) {
+var G__31216 = arguments.length;
+switch (G__31216) {
 case 2:
 return zprint.core.set_options_BANG_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -201,14 +201,14 @@ var combined_errors = [(cljs.core.truth_(configure_errors)?["Global configuratio
 if((!(cljs.core.empty_QMARK_(combined_errors)))){
 throw (new Error(combined_errors));
 } else {
-var vec__31241 = zprint.config.perform_remove(null,null,zprint.config.get_options(),rest_options);
-var internal_map = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31241,(0),null);
-var rest_options__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31241,(1),null);
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31241,(2),null);
-var vec__31244 = zprint.config.apply_style(null,null,internal_map,rest_options__$1);
-var updated_map = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31244,(0),null);
-var ___$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31244,(1),null);
-var style_errors = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31244,(2),null);
+var vec__31242 = zprint.config.perform_remove(null,null,zprint.config.get_options(),rest_options);
+var internal_map = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31242,(0),null);
+var rest_options__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31242,(1),null);
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31242,(2),null);
+var vec__31245 = zprint.config.apply_style(null,null,internal_map,rest_options__$1);
+var updated_map = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31245,(0),null);
+var ___$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31245,(1),null);
+var style_errors = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31245,(2),null);
 var style_errors__$1 = (cljs.core.truth_(style_errors)?["Option errors in this call: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(style_errors)].join(''):null);
 var actual_options = (((!(cljs.core.empty_QMARK_(style_errors__$1))))?(function(){throw (new Error(style_errors__$1))})():zprint.config.add_calculated_options(zprint.config.merge_deep.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([updated_map,rest_options__$1], 0))));
 return actual_options;
@@ -406,14 +406,14 @@ throw (new Error(["No definition found for a function named: ",cljs.core.str.clj
  */
 zprint.core.zprint_str = (function zprint$core$zprint_str(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___31309 = arguments.length;
-var i__4737__auto___31310 = (0);
+var len__4736__auto___31305 = arguments.length;
+var i__4737__auto___31306 = (0);
 while(true){
-if((i__4737__auto___31310 < len__4736__auto___31309)){
-args__4742__auto__.push((arguments[i__4737__auto___31310]));
+if((i__4737__auto___31306 < len__4736__auto___31305)){
+args__4742__auto__.push((arguments[i__4737__auto___31306]));
 
-var G__31311 = (i__4737__auto___31310 + (1));
-i__4737__auto___31310 = G__31311;
+var G__31307 = (i__4737__auto___31306 + (1));
+i__4737__auto___31306 = G__31307;
 continue;
 } else {
 }
@@ -456,14 +456,14 @@ return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31278,seq31277
  */
 zprint.core.czprint_str = (function zprint$core$czprint_str(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___31312 = arguments.length;
-var i__4737__auto___31313 = (0);
+var len__4736__auto___31308 = arguments.length;
+var i__4737__auto___31309 = (0);
 while(true){
-if((i__4737__auto___31313 < len__4736__auto___31312)){
-args__4742__auto__.push((arguments[i__4737__auto___31313]));
+if((i__4737__auto___31309 < len__4736__auto___31308)){
+args__4742__auto__.push((arguments[i__4737__auto___31309]));
 
-var G__31314 = (i__4737__auto___31313 + (1));
-i__4737__auto___31313 = G__31314;
+var G__31310 = (i__4737__auto___31309 + (1));
+i__4737__auto___31309 = G__31310;
 continue;
 } else {
 }

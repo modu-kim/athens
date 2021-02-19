@@ -69,14 +69,14 @@ return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__62684,seq62683
  */
 sci.impl.multimethods.defmulti = (function sci$impl$multimethods$defmulti(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___62703 = arguments.length;
-var i__4737__auto___62704 = (0);
+var len__4736__auto___62704 = arguments.length;
+var i__4737__auto___62705 = (0);
 while(true){
-if((i__4737__auto___62704 < len__4736__auto___62703)){
-args__4742__auto__.push((arguments[i__4737__auto___62704]));
+if((i__4737__auto___62705 < len__4736__auto___62704)){
+args__4742__auto__.push((arguments[i__4737__auto___62705]));
 
-var G__62705 = (i__4737__auto___62704 + (1));
-i__4737__auto___62704 = G__62705;
+var G__62706 = (i__4737__auto___62705 + (1));
+i__4737__auto___62705 = G__62706;
 continue;
 } else {
 }
@@ -140,14 +140,14 @@ return cljs.core._add_method(multifn,dispatch_val,f);
  */
 sci.impl.multimethods.defmethod = (function sci$impl$multimethods$defmethod(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___62706 = arguments.length;
-var i__4737__auto___62707 = (0);
+var len__4736__auto___62719 = arguments.length;
+var i__4737__auto___62720 = (0);
 while(true){
-if((i__4737__auto___62707 < len__4736__auto___62706)){
-args__4742__auto__.push((arguments[i__4737__auto___62707]));
+if((i__4737__auto___62720 < len__4736__auto___62719)){
+args__4742__auto__.push((arguments[i__4737__auto___62720]));
 
-var G__62708 = (i__4737__auto___62707 + (1));
-i__4737__auto___62707 = G__62708;
+var G__62721 = (i__4737__auto___62720 + (1));
+i__4737__auto___62720 = G__62721;
 continue;
 } else {
 }
