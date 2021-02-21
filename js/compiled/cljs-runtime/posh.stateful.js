@@ -70,8 +70,8 @@ while(true){
 if((i__4737__auto___36121 < len__4736__auto___36120)){
 args__4742__auto__.push((arguments[i__4737__auto___36121]));
 
-var G__36122 = (i__4737__auto___36121 + (1));
-i__4737__auto___36121 = G__36122;
+var G__36126 = (i__4737__auto___36121 + (1));
+i__4737__auto___36121 = G__36126;
 continue;
 } else {
 }
