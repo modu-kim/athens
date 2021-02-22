@@ -3,13 +3,13 @@ goog.provide('dommy.utils');
  * Dissociate this keyseq from m, removing any empty maps created as a result
  * (including at the top-level).
  */
-dommy.utils.dissoc_in = (function dommy$utils$dissoc_in(m,p__54405){
-var vec__54406 = p__54405;
-var seq__54407 = cljs.core.seq(vec__54406);
-var first__54408 = cljs.core.first(seq__54407);
-var seq__54407__$1 = cljs.core.next(seq__54407);
-var k = first__54408;
-var ks = seq__54407__$1;
+dommy.utils.dissoc_in = (function dommy$utils$dissoc_in(m,p__54402){
+var vec__54403 = p__54402;
+var seq__54404 = cljs.core.seq(vec__54403);
+var first__54405 = cljs.core.first(seq__54404);
+var seq__54404__$1 = cljs.core.next(seq__54404);
+var k = first__54405;
+var ks = seq__54404__$1;
 if(cljs.core.truth_(m)){
 var temp__5733__auto__ = (function (){var and__4115__auto__ = ks;
 if(and__4115__auto__){
@@ -44,11 +44,11 @@ return Array.prototype.slice.call(array_like);
  */
 dommy.utils.as_str = (function dommy$utils$as_str(s){
 if((s instanceof cljs.core.Keyword)){
-return [(function (){var G__54418 = cljs.core.namespace(s);
-if((G__54418 == null)){
+return [(function (){var G__54414 = cljs.core.namespace(s);
+if((G__54414 == null)){
 return null;
 } else {
-return [G__54418,"/"].join('');
+return [G__54414,"/"].join('');
 }
 })(),cljs.core.name(s)].join('');
 } else {

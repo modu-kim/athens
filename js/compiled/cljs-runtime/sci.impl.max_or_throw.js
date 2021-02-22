@@ -38,10 +38,10 @@ if((n > (0))){
 var temp__5735__auto__ = cljs.core.seq(coll);
 if(temp__5735__auto__){
 var s = temp__5735__auto__;
-return cljs.core.cons(cljs.core.first(s),(function (){var G__62617 = (n - (1));
-var G__62618 = cljs.core.rest(s);
-var G__62619 = err_val;
-return (sci.impl.max_or_throw.take_STAR_.cljs$core$IFn$_invoke$arity$3 ? sci.impl.max_or_throw.take_STAR_.cljs$core$IFn$_invoke$arity$3(G__62617,G__62618,G__62619) : sci.impl.max_or_throw.take_STAR_.call(null,G__62617,G__62618,G__62619));
+return cljs.core.cons(cljs.core.first(s),(function (){var G__62623 = (n - (1));
+var G__62624 = cljs.core.rest(s);
+var G__62625 = err_val;
+return (sci.impl.max_or_throw.take_STAR_.cljs$core$IFn$_invoke$arity$3 ? sci.impl.max_or_throw.take_STAR_.cljs$core$IFn$_invoke$arity$3(G__62623,G__62624,G__62625) : sci.impl.max_or_throw.take_STAR_.call(null,G__62623,G__62624,G__62625));
 })());
 } else {
 return null;

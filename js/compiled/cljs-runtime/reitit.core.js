@@ -5,7 +5,7 @@ goog.provide('reitit.core');
  */
 reitit.core.Expand = function(){};
 
-var reitit$core$Expand$expand$dyn_60922 = (function (this$,opts){
+var reitit$core$Expand$expand$dyn_60921 = (function (this$,opts){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.expand[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -23,7 +23,7 @@ reitit.core.expand = (function reitit$core$expand(this$,opts){
 if((((!((this$ == null)))) && ((!((this$.reitit$core$Expand$expand$arity$2 == null)))))){
 return this$.reitit$core$Expand$expand$arity$2(this$,opts);
 } else {
-return reitit$core$Expand$expand$dyn_60922(this$,opts);
+return reitit$core$Expand$expand$dyn_60921(this$,opts);
 }
 });
 
@@ -87,7 +87,7 @@ return reitit$core$Router$router_name$dyn_60923(this$);
 }
 });
 
-var reitit$core$Router$routes$dyn_60926 = (function (this$){
+var reitit$core$Router$routes$dyn_60925 = (function (this$){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.routes[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -105,7 +105,7 @@ reitit.core.routes = (function reitit$core$routes(this$){
 if((((!((this$ == null)))) && ((!((this$.reitit$core$Router$routes$arity$1 == null)))))){
 return this$.reitit$core$Router$routes$arity$1(this$);
 } else {
-return reitit$core$Router$routes$dyn_60926(this$);
+return reitit$core$Router$routes$dyn_60925(this$);
 }
 });
 
@@ -153,7 +153,7 @@ return reitit$core$Router$options$dyn_60930(this$);
 }
 });
 
-var reitit$core$Router$route_names$dyn_60932 = (function (this$){
+var reitit$core$Router$route_names$dyn_60931 = (function (this$){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.route_names[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -171,7 +171,7 @@ reitit.core.route_names = (function reitit$core$route_names(this$){
 if((((!((this$ == null)))) && ((!((this$.reitit$core$Router$route_names$arity$1 == null)))))){
 return this$.reitit$core$Router$route_names$arity$1(this$);
 } else {
-return reitit$core$Router$route_names$dyn_60932(this$);
+return reitit$core$Router$route_names$dyn_60931(this$);
 }
 });
 

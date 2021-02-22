@@ -10,8 +10,8 @@ throw (new Error("Assert failed: (re-frame.registrar/kinds kind)"));
  *   This function is 9/10 about giving good error messages.
  */
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events.flatten_and_remove_nils = (function day8$re_frame_10x$inlined_deps$re_frame$v0v11v0$re_frame$events$flatten_and_remove_nils(id,interceptors){
-var make_chain = (function (p1__27518_SHARP_){
-return cljs.core.remove.cljs$core$IFn$_invoke$arity$2(cljs.core.nil_QMARK_,cljs.core.flatten(p1__27518_SHARP_));
+var make_chain = (function (p1__27516_SHARP_){
+return cljs.core.remove.cljs$core$IFn$_invoke$arity$2(cljs.core.nil_QMARK_,cljs.core.flatten(p1__27516_SHARP_));
 });
 if((!(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.interop.debug_enabled_QMARK_))){
 return make_chain(interceptors);
@@ -66,9 +66,9 @@ var interceptors = temp__5733__auto__;
 if(cljs.core.truth_(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events._STAR_handling_STAR_)){
 return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: while handling",day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events._STAR_handling_STAR_,", dispatch-sync was called for",event_v,". You can't call dispatch-sync within an event handler."], 0));
 } else {
-var _STAR_handling_STAR__orig_val__27524 = day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events._STAR_handling_STAR_;
-var _STAR_handling_STAR__temp_val__27525 = event_v;
-(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events._STAR_handling_STAR_ = _STAR_handling_STAR__temp_val__27525);
+var _STAR_handling_STAR__orig_val__27521 = day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events._STAR_handling_STAR_;
+var _STAR_handling_STAR__temp_val__27522 = event_v;
+(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events._STAR_handling_STAR_ = _STAR_handling_STAR__temp_val__27522);
 
 try{if(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace.is_trace_enabled_QMARK_()){
 var _STAR_current_trace_STAR__orig_val__27526 = day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace._STAR_current_trace_STAR_;
@@ -93,11 +93,11 @@ return null;
 return null;
 }
 }finally {if(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace.is_trace_enabled_QMARK_()){
-var end__27417__auto___27538 = day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.interop.now();
-var duration__27418__auto___27539 = (end__27417__auto___27538 - new cljs.core.Keyword(null,"start","start",-355208981).cljs$core$IFn$_invoke$arity$1(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace._STAR_current_trace_STAR_));
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace.traces,cljs.core.conj,cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace._STAR_current_trace_STAR_,new cljs.core.Keyword(null,"duration","duration",1444101068),duration__27418__auto___27539,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"end","end",-268185958),day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.interop.now()], 0)));
+var end__27417__auto___27539 = day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.interop.now();
+var duration__27418__auto___27540 = (end__27417__auto___27539 - new cljs.core.Keyword(null,"start","start",-355208981).cljs$core$IFn$_invoke$arity$1(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace._STAR_current_trace_STAR_));
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace.traces,cljs.core.conj,cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace._STAR_current_trace_STAR_,new cljs.core.Keyword(null,"duration","duration",1444101068),duration__27418__auto___27540,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"end","end",-268185958),day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.interop.now()], 0)));
 
-day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace.run_tracing_callbacks_BANG_(end__27417__auto___27538);
+day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace.run_tracing_callbacks_BANG_(end__27417__auto___27539);
 } else {
 }
 }}finally {(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace._STAR_current_trace_STAR_ = _STAR_current_trace_STAR__orig_val__27526);
@@ -120,7 +120,7 @@ return null;
 return null;
 }
 }
-}finally {(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events._STAR_handling_STAR_ = _STAR_handling_STAR__orig_val__27524);
+}finally {(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events._STAR_handling_STAR_ = _STAR_handling_STAR__orig_val__27521);
 }}
 } else {
 return null;
