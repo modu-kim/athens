@@ -23,8 +23,8 @@ devtools.prefs.set_prefs_BANG_(cljs.core.deref(devtools.prefs._STAR_current_conf
 return devtools.prefs._STAR_current_config_STAR_;
 });
 devtools.prefs.pref = (function devtools$prefs$pref(key){
-var G__20295 = devtools.prefs.get_prefs();
-return (key.cljs$core$IFn$_invoke$arity$1 ? key.cljs$core$IFn$_invoke$arity$1(G__20295) : key.call(null,G__20295));
+var G__20303 = devtools.prefs.get_prefs();
+return (key.cljs$core$IFn$_invoke$arity$1 ? key.cljs$core$IFn$_invoke$arity$1(G__20303) : key.call(null,G__20303));
 });
 devtools.prefs.set_pref_BANG_ = (function devtools$prefs$set_pref_BANG_(key,val){
 return devtools.prefs.set_prefs_BANG_(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(devtools.prefs.get_prefs(),key,val));
@@ -34,14 +34,14 @@ return devtools.prefs.set_prefs_BANG_(cljs.core.merge.cljs$core$IFn$_invoke$arit
 });
 devtools.prefs.update_pref_BANG_ = (function devtools$prefs$update_pref_BANG_(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___20304 = arguments.length;
-var i__4737__auto___20305 = (0);
+var len__4736__auto___20313 = arguments.length;
+var i__4737__auto___20314 = (0);
 while(true){
-if((i__4737__auto___20305 < len__4736__auto___20304)){
-args__4742__auto__.push((arguments[i__4737__auto___20305]));
+if((i__4737__auto___20314 < len__4736__auto___20313)){
+args__4742__auto__.push((arguments[i__4737__auto___20314]));
 
-var G__20306 = (i__4737__auto___20305 + (1));
-i__4737__auto___20305 = G__20306;
+var G__20315 = (i__4737__auto___20314 + (1));
+i__4737__auto___20314 = G__20315;
 continue;
 } else {
 }
@@ -60,13 +60,13 @@ return devtools.prefs.set_pref_BANG_(key,new_val);
 (devtools.prefs.update_pref_BANG_.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(devtools.prefs.update_pref_BANG_.cljs$lang$applyTo = (function (seq20297){
-var G__20298 = cljs.core.first(seq20297);
-var seq20297__$1 = cljs.core.next(seq20297);
-var G__20299 = cljs.core.first(seq20297__$1);
-var seq20297__$2 = cljs.core.next(seq20297__$1);
+(devtools.prefs.update_pref_BANG_.cljs$lang$applyTo = (function (seq20305){
+var G__20306 = cljs.core.first(seq20305);
+var seq20305__$1 = cljs.core.next(seq20305);
+var G__20307 = cljs.core.first(seq20305__$1);
+var seq20305__$2 = cljs.core.next(seq20305__$1);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__20298,G__20299,seq20297__$2);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__20306,G__20307,seq20305__$2);
 }));
 
 
