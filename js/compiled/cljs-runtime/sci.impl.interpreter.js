@@ -142,13 +142,13 @@ return null;
 (sci.impl.interpreter.eval_let.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(sci.impl.interpreter.eval_let.cljs$lang$applyTo = (function (seq63159){
-var G__63160 = cljs.core.first(seq63159);
-var seq63159__$1 = cljs.core.next(seq63159);
-var G__63161 = cljs.core.first(seq63159__$1);
-var seq63159__$2 = cljs.core.next(seq63159__$1);
+(sci.impl.interpreter.eval_let.cljs$lang$applyTo = (function (seq63157){
+var G__63158 = cljs.core.first(seq63157);
+var seq63157__$1 = cljs.core.next(seq63157);
+var G__63159 = cljs.core.first(seq63157__$1);
+var seq63157__$2 = cljs.core.next(seq63157__$1);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__63160,G__63161,seq63159__$2);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__63158,G__63159,seq63157__$2);
 }));
 
 sci.impl.interpreter.eval_if = (function sci$impl$interpreter$eval_if(ctx,expr){
@@ -230,15 +230,15 @@ var ret__$1 = ret;
 var G__63177__$1 = G__63177;
 while(true){
 var ret__$2 = ret__$1;
-var vec__63189 = G__63177__$1;
-var seq__63190 = cljs.core.seq(vec__63189);
-var first__63191 = cljs.core.first(seq__63190);
-var seq__63190__$1 = cljs.core.next(seq__63190);
-var opt_name__$1 = first__63191;
-var first__63191__$1 = cljs.core.first(seq__63190__$1);
-var seq__63190__$2 = cljs.core.next(seq__63190__$1);
-var fst_opt__$1 = first__63191__$1;
-var rst_opts__$1 = seq__63190__$2;
+var vec__63186 = G__63177__$1;
+var seq__63187 = cljs.core.seq(vec__63186);
+var first__63189 = cljs.core.first(seq__63187);
+var seq__63187__$1 = cljs.core.next(seq__63187);
+var opt_name__$1 = first__63189;
+var first__63189__$1 = cljs.core.first(seq__63187__$1);
+var seq__63187__$2 = cljs.core.next(seq__63187__$1);
+var fst_opt__$1 = first__63189__$1;
+var rst_opts__$1 = seq__63187__$2;
 if(cljs.core.not(opt_name__$1)){
 return ret__$2;
 } else {
@@ -499,11 +499,11 @@ continue;
 }
 }
 } else {
-var libspecs__$1 = (function (){var G__63235 = libspecs;
+var libspecs__$1 = (function (){var G__63232 = libspecs;
 if(cljs.core.truth_(current_libspec)){
-return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(G__63235,current_libspec);
+return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(G__63232,current_libspec);
 } else {
-return G__63235;
+return G__63232;
 }
 })();
 return cljs.core.run_BANG_(((function (libspecs,current_libspec,args__$1,libspecs__$1){

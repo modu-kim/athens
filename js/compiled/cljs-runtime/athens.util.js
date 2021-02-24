@@ -23,8 +23,8 @@ return athens.util.scroll_top_BANG_(container,(((e_top < cs_top))?e_top:(((cs_bo
  * Finds offset between mouse event and container. If container is not passed, use target as container.
  */
 athens.util.mouse_offset = (function athens$util$mouse_offset(var_args){
-var G__46381 = arguments.length;
-switch (G__46381) {
+var G__46379 = arguments.length;
+switch (G__46379) {
 case 1:
 return athens.util.mouse_offset.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

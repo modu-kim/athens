@@ -103,12 +103,12 @@ return (rewrite_clj.zip.whitespace.skip_whitespace_left(clojure.zip.left(zloc)) 
  * Move to the next non-whitespace/non-comment location in a depth-first manner.
  */
 rewrite_clj.zip.move.prev = (function rewrite_clj$zip$move$prev(zloc){
-var G__29803 = zloc;
-var G__29803__$1 = (((G__29803 == null))?null:clojure.zip.prev(G__29803));
-if((G__29803__$1 == null)){
+var G__29804 = zloc;
+var G__29804__$1 = (((G__29804 == null))?null:clojure.zip.prev(G__29804));
+if((G__29804__$1 == null)){
 return null;
 } else {
-return rewrite_clj.zip.whitespace.skip_whitespace.cljs$core$IFn$_invoke$arity$2(clojure.zip.prev,G__29803__$1);
+return rewrite_clj.zip.whitespace.skip_whitespace.cljs$core$IFn$_invoke$arity$2(clojure.zip.prev,G__29804__$1);
 }
 });
 /**

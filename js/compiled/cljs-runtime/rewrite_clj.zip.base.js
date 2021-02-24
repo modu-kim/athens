@@ -20,10 +20,10 @@ return or__4126__auto__;
 return top;
 }
 } else {
-var G__29804 = (function (){var G__29789 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [node], null);
+var G__29803 = (function (){var G__29789 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [node], null);
 return (rewrite_clj.node.forms_node.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.forms_node.cljs$core$IFn$_invoke$arity$1(G__29789) : rewrite_clj.node.forms_node.call(null,G__29789));
 })();
-node = G__29804;
+node = G__29803;
 continue;
 }
 break;

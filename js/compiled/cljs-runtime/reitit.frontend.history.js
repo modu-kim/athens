@@ -55,7 +55,7 @@ return reitit$frontend$history$History$_stop$dyn_61070(this$);
 }
 });
 
-var reitit$frontend$history$History$_on_navigate$dyn_61073 = (function (this$,path){
+var reitit$frontend$history$History$_on_navigate$dyn_61071 = (function (this$,path){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.frontend.history._on_navigate[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -73,11 +73,11 @@ reitit.frontend.history._on_navigate = (function reitit$frontend$history$_on_nav
 if((((!((this$ == null)))) && ((!((this$.reitit$frontend$history$History$_on_navigate$arity$2 == null)))))){
 return this$.reitit$frontend$history$History$_on_navigate$arity$2(this$,path);
 } else {
-return reitit$frontend$history$History$_on_navigate$dyn_61073(this$,path);
+return reitit$frontend$history$History$_on_navigate$dyn_61071(this$,path);
 }
 });
 
-var reitit$frontend$history$History$_get_path$dyn_61074 = (function (this$){
+var reitit$frontend$history$History$_get_path$dyn_61073 = (function (this$){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.frontend.history._get_path[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -95,11 +95,11 @@ reitit.frontend.history._get_path = (function reitit$frontend$history$_get_path(
 if((((!((this$ == null)))) && ((!((this$.reitit$frontend$history$History$_get_path$arity$1 == null)))))){
 return this$.reitit$frontend$history$History$_get_path$arity$1(this$);
 } else {
-return reitit$frontend$history$History$_get_path$dyn_61074(this$);
+return reitit$frontend$history$History$_get_path$dyn_61073(this$);
 }
 });
 
-var reitit$frontend$history$History$_href$dyn_61077 = (function (this$,path){
+var reitit$frontend$history$History$_href$dyn_61075 = (function (this$,path){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.frontend.history._href[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -117,7 +117,7 @@ reitit.frontend.history._href = (function reitit$frontend$history$_href(this$,pa
 if((((!((this$ == null)))) && ((!((this$.reitit$frontend$history$History$_href$arity$2 == null)))))){
 return this$.reitit$frontend$history$History$_href$arity$2(this$,path);
 } else {
-return reitit$frontend$history$History$_href$dyn_61077(this$,path);
+return reitit$frontend$history$History$_href$dyn_61075(this$,path);
 }
 });
 
@@ -162,9 +162,9 @@ return this__4380__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4381__au
 (reitit.frontend.history.FragmentHistory.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4382__auto__,k61020,else__4383__auto__){
 var self__ = this;
 var this__4382__auto____$1 = this;
-var G__61024 = k61020;
-var G__61024__$1 = (((G__61024 instanceof cljs.core.Keyword))?G__61024.fqn:null);
-switch (G__61024__$1) {
+var G__61025 = k61020;
+var G__61025__$1 = (((G__61025 instanceof cljs.core.Keyword))?G__61025.fqn:null);
+switch (G__61025__$1) {
 case "on-navigate":
 return self__.on_navigate;
 
@@ -194,10 +194,10 @@ return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k61020,else__
 (reitit.frontend.history.FragmentHistory.prototype.cljs$core$IKVReduce$_kv_reduce$arity$3 = (function (this__4399__auto__,f__4400__auto__,init__4401__auto__){
 var self__ = this;
 var this__4399__auto____$1 = this;
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4402__auto__,p__61025){
-var vec__61026 = p__61025;
-var k__4403__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61026,(0),null);
-var v__4404__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61026,(1),null);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4402__auto__,p__61026){
+var vec__61027 = p__61026;
+var k__4403__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61027,(0),null);
+var v__4404__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61027,(1),null);
 return (f__4400__auto__.cljs$core$IFn$_invoke$arity$3 ? f__4400__auto__.cljs$core$IFn$_invoke$arity$3(ret__4402__auto__,k__4403__auto__,v__4404__auto__) : f__4400__auto__.call(null,ret__4402__auto__,k__4403__auto__,v__4404__auto__));
 }),init__4401__auto__,this__4399__auto____$1);
 }));

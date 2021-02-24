@@ -29,8 +29,8 @@ cljc.java_time.offset_date_time.minus_hours = (function cljc$java_time$offset_da
 return this4063.minusHours(long4064);
 });
 cljc.java_time.offset_date_time.of = (function cljc$java_time$offset_date_time$of(var_args){
-var G__41806 = arguments.length;
-switch (G__41806) {
+var G__41808 = arguments.length;
+switch (G__41808) {
 case 2:
 return cljc.java_time.offset_date_time.of.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -154,8 +154,8 @@ cljc.java_time.offset_date_time.minus_months = (function cljc$java_time$offset_d
 return this4114.minusMonths(long4115);
 });
 cljc.java_time.offset_date_time.minus = (function cljc$java_time$offset_date_time$minus(var_args){
-var G__41815 = arguments.length;
-switch (G__41815) {
+var G__41816 = arguments.length;
+switch (G__41816) {
 case 2:
 return cljc.java_time.offset_date_time.minus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 

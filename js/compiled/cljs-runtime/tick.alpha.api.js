@@ -1070,14 +1070,14 @@ return tick.alpha.api.concur.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 break;
 default:
 var args_arr__4757__auto__ = [];
-var len__4736__auto___46447 = arguments.length;
-var i__4737__auto___46448 = (0);
+var len__4736__auto___46448 = arguments.length;
+var i__4737__auto___46449 = (0);
 while(true){
-if((i__4737__auto___46448 < len__4736__auto___46447)){
-args_arr__4757__auto__.push((arguments[i__4737__auto___46448]));
+if((i__4737__auto___46449 < len__4736__auto___46448)){
+args_arr__4757__auto__.push((arguments[i__4737__auto___46449]));
 
-var G__46449 = (i__4737__auto___46448 + (1));
-i__4737__auto___46448 = G__46449;
+var G__46450 = (i__4737__auto___46449 + (1));
+i__4737__auto___46449 = G__46450;
 continue;
 } else {
 }
@@ -1114,14 +1114,14 @@ return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__46369,seq46368
 
 tick.alpha.api.concurrencies = (function tick$alpha$api$concurrencies(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___46450 = arguments.length;
-var i__4737__auto___46451 = (0);
+var len__4736__auto___46451 = arguments.length;
+var i__4737__auto___46452 = (0);
 while(true){
-if((i__4737__auto___46451 < len__4736__auto___46450)){
-args__4742__auto__.push((arguments[i__4737__auto___46451]));
+if((i__4737__auto___46452 < len__4736__auto___46451)){
+args__4742__auto__.push((arguments[i__4737__auto___46452]));
 
-var G__46452 = (i__4737__auto___46451 + (1));
-i__4737__auto___46451 = G__46452;
+var G__46453 = (i__4737__auto___46452 + (1));
+i__4737__auto___46452 = G__46453;
 continue;
 } else {
 }

@@ -430,9 +430,9 @@ cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(reagent.ratom._running,cljs.c
 } else {
 }
 
-var __31689 = o.reagReactionCache;
-var __31690__$1 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(__31689,k);
-(o.reagReactionCache = __31690__$1);
+var __31688 = o.reagReactionCache;
+var __31689__$1 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(__31688,k);
+(o.reagReactionCache = __31689__$1);
 
 if((!((obj == null)))){
 (obj.reaction = null);
@@ -552,14 +552,14 @@ return r;
 });
 reagent.ratom.track = (function reagent$ratom$track(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___31695 = arguments.length;
-var i__4737__auto___31696 = (0);
+var len__4736__auto___31693 = arguments.length;
+var i__4737__auto___31694 = (0);
 while(true){
-if((i__4737__auto___31696 < len__4736__auto___31695)){
-args__4742__auto__.push((arguments[i__4737__auto___31696]));
+if((i__4737__auto___31694 < len__4736__auto___31693)){
+args__4742__auto__.push((arguments[i__4737__auto___31694]));
 
-var G__31697 = (i__4737__auto___31696 + (1));
-i__4737__auto___31696 = G__31697;
+var G__31695 = (i__4737__auto___31694 + (1));
+i__4737__auto___31694 = G__31695;
 continue;
 } else {
 }
@@ -868,7 +868,7 @@ return reagent$ratom$IDisposable$dispose_BANG_$dyn_31704(this$);
 }
 });
 
-var reagent$ratom$IDisposable$add_on_dispose_BANG_$dyn_31706 = (function (this$,f){
+var reagent$ratom$IDisposable$add_on_dispose_BANG_$dyn_31705 = (function (this$,f){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reagent.ratom.add_on_dispose_BANG_[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -886,7 +886,7 @@ reagent.ratom.add_on_dispose_BANG_ = (function reagent$ratom$add_on_dispose_BANG
 if((((!((this$ == null)))) && ((!((this$.reagent$ratom$IDisposable$add_on_dispose_BANG_$arity$2 == null)))))){
 return this$.reagent$ratom$IDisposable$add_on_dispose_BANG_$arity$2(this$,f);
 } else {
-return reagent$ratom$IDisposable$add_on_dispose_BANG_$dyn_31706(this$,f);
+return reagent$ratom$IDisposable$add_on_dispose_BANG_$dyn_31705(this$,f);
 }
 });
 
@@ -1447,14 +1447,14 @@ return (new reagent.ratom.Reaction(f,state,dirty_QMARK_,nocache_QMARK_,watching,
 
 reagent.ratom.make_reaction = (function reagent$ratom$make_reaction(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___31771 = arguments.length;
-var i__4737__auto___31772 = (0);
+var len__4736__auto___31769 = arguments.length;
+var i__4737__auto___31770 = (0);
 while(true){
-if((i__4737__auto___31772 < len__4736__auto___31771)){
-args__4742__auto__.push((arguments[i__4737__auto___31772]));
+if((i__4737__auto___31770 < len__4736__auto___31769)){
+args__4742__auto__.push((arguments[i__4737__auto___31770]));
 
-var G__31773 = (i__4737__auto___31772 + (1));
-i__4737__auto___31772 = G__31773;
+var G__31771 = (i__4737__auto___31770 + (1));
+i__4737__auto___31770 = G__31771;
 continue;
 } else {
 }
