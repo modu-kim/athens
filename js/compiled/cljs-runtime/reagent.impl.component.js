@@ -79,12 +79,12 @@ return G__31681__$1.reagentRender;
 })() == null)))));
 });
 reagent.impl.component.react_class_QMARK_ = (function reagent$impl$component$react_class_QMARK_(c){
-return ((cljs.core.fn_QMARK_(c)) && ((!(((function (){var G__31687 = c;
-var G__31687__$1 = (((G__31687 == null))?null:G__31687.prototype);
-if((G__31687__$1 == null)){
+return ((cljs.core.fn_QMARK_(c)) && ((!(((function (){var G__31683 = c;
+var G__31683__$1 = (((G__31683 == null))?null:G__31683.prototype);
+if((G__31683__$1 == null)){
 return null;
 } else {
-return G__31687__$1.render;
+return G__31683__$1.render;
 }
 })() == null)))));
 });
@@ -192,12 +192,12 @@ break;
 }
 });
 reagent.impl.component.component_name = (function reagent$impl$component$component_name(c){
-var G__31694 = c;
-var G__31694__$1 = (((G__31694 == null))?null:G__31694.constructor);
-if((G__31694__$1 == null)){
+var G__31692 = c;
+var G__31692__$1 = (((G__31692 == null))?null:G__31692.constructor);
+if((G__31692__$1 == null)){
 return null;
 } else {
-return G__31694__$1.displayName;
+return G__31692__$1.displayName;
 }
 });
 reagent.impl.component.comp_name = (function reagent$impl$component$comp_name(){
@@ -211,9 +211,9 @@ return "";
 
 });
 reagent.impl.component.do_render = (function reagent$impl$component$do_render(c){
-var _STAR_current_component_STAR__orig_val__31699 = reagent.impl.component._STAR_current_component_STAR_;
-var _STAR_current_component_STAR__temp_val__31700 = c;
-(reagent.impl.component._STAR_current_component_STAR_ = _STAR_current_component_STAR__temp_val__31700);
+var _STAR_current_component_STAR__orig_val__31693 = reagent.impl.component._STAR_current_component_STAR_;
+var _STAR_current_component_STAR__temp_val__31694 = c;
+(reagent.impl.component._STAR_current_component_STAR_ = _STAR_current_component_STAR__temp_val__31694);
 
 try{var ok = [false];
 try{var res = reagent.impl.component.wrap_render(c);
@@ -228,7 +228,7 @@ if(reagent.debug.has_console){
 }
 }
 }
-}finally {(reagent.impl.component._STAR_current_component_STAR_ = _STAR_current_component_STAR__orig_val__31699);
+}finally {(reagent.impl.component._STAR_current_component_STAR_ = _STAR_current_component_STAR__orig_val__31693);
 }});
 reagent.impl.component.rat_opts = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"no-cache","no-cache",1588056370),true], null);
 reagent.impl.component.static_fns = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"render","render",-1408033454),(function reagent$impl$component$render(){
@@ -312,7 +312,7 @@ if(or__4126__auto____$1){
 return or__4126__auto____$1;
 } else {
 try{return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(old_argv,new_argv);
-}catch (e31704){var e = e31704;
+}catch (e31703){var e = e31703;
 if(reagent.debug.has_console){
 ((reagent.debug.tracking)?reagent.debug.track_console:console).warn(["Warning: ","Exception thrown while comparing argv's in shouldComponentUpdate: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(old_argv)," ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new_argv)," ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(e)].join(''));
 } else {
@@ -377,10 +377,10 @@ break;
 case "componentWillUnmount":
 return (function reagent$impl$component$custom_wrapper_$_componentWillUnmount(){
 var c = this;
-var G__31707_31780 = goog.object.get(c,"cljsRatom");
-if((G__31707_31780 == null)){
+var G__31706_31780 = goog.object.get(c,"cljsRatom");
+if((G__31706_31780 == null)){
 } else {
-reagent.ratom.dispose_BANG_(G__31707_31780);
+reagent.ratom.dispose_BANG_(G__31706_31780);
 }
 
 reagent.impl.batching.mark_rendered(c);
@@ -489,10 +489,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(fmap__$1,new cljs.co
 });
 reagent.impl.component.map_to_js = (function reagent$impl$component$map_to_js(m){
 return cljs.core.reduce_kv((function (o,k,v){
-var G__31753 = o;
-goog.object.set(G__31753,cljs.core.name(k),v);
+var G__31741 = o;
+goog.object.set(G__31741,cljs.core.name(k),v);
 
-return G__31753;
+return G__31741;
 }),({}),m);
 });
 reagent.impl.component.cljsify = (function reagent$impl$component$cljsify(body){

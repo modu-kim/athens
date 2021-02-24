@@ -371,8 +371,8 @@ return cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.c
  * opts is a map as per cljs.tools.reader.edn/read
  */
 cljs.reader.read_string = (function cljs$reader$read_string(var_args){
-var G__24735 = arguments.length;
-switch (G__24735) {
+var G__24732 = arguments.length;
+switch (G__24732) {
 case 1:
 return cljs.reader.read_string.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

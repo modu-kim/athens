@@ -122,8 +122,8 @@ return instaparse.auto_flatten_seq.delve(v,new cljs.core.PersistentVector(null, 
 return null;
 }
 } else {
-if((cljs.core.peek(index) < ((function (){var G__46496 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(v,cljs.core.pop(index));
-return (instaparse.auto_flatten_seq.true_count.cljs$core$IFn$_invoke$arity$1 ? instaparse.auto_flatten_seq.true_count.cljs$core$IFn$_invoke$arity$1(G__46496) : instaparse.auto_flatten_seq.true_count.call(null,G__46496));
+if((cljs.core.peek(index) < ((function (){var G__46495 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(v,cljs.core.pop(index));
+return (instaparse.auto_flatten_seq.true_count.cljs$core$IFn$_invoke$arity$1 ? instaparse.auto_flatten_seq.true_count.cljs$core$IFn$_invoke$arity$1(G__46495) : instaparse.auto_flatten_seq.true_count.call(null,G__46495));
 })() - (1)))){
 return instaparse.auto_flatten_seq.delve(v,cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.pop(index),(cljs.core.peek(index) + (1))));
 } else {
@@ -367,8 +367,8 @@ return (cljs.core.imul(e,v1.premix_hashcode) + (v2.premix_hashcode - e));
  * Returns the partially calculated hash code, still requires a call to mix-collection-hash
  */
 instaparse.auto_flatten_seq.hash_ordered_coll_without_mix = (function instaparse$auto_flatten_seq$hash_ordered_coll_without_mix(var_args){
-var G__46531 = arguments.length;
-switch (G__46531) {
+var G__46528 = arguments.length;
+switch (G__46528) {
 case 1:
 return instaparse.auto_flatten_seq.hash_ordered_coll_without_mix.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -392,10 +392,10 @@ var unmixed_hash = existing_unmixed_hash;
 var coll__$1 = cljs.core.seq(coll);
 while(true){
 if((!((coll__$1 == null)))){
-var G__46580 = ((cljs.core.imul((31),unmixed_hash) + cljs.core.hash(cljs.core.first(coll__$1))) | (0));
-var G__46581 = cljs.core.next(coll__$1);
-unmixed_hash = G__46580;
-coll__$1 = G__46581;
+var G__46582 = ((cljs.core.imul((31),unmixed_hash) + cljs.core.hash(cljs.core.first(coll__$1))) | (0));
+var G__46583 = cljs.core.next(coll__$1);
+unmixed_hash = G__46582;
+coll__$1 = G__46583;
 continue;
 } else {
 return unmixed_hash;
@@ -671,8 +671,8 @@ return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(self__$1.instaparse$auto_fla
 (instaparse.auto_flatten_seq.FlattenOnDemandVector.prototype.call = (function (unused__10806__auto__){
 var self__ = this;
 var self__ = this;
-var G__46556 = (arguments.length - (1));
-switch (G__46556) {
+var G__46559 = (arguments.length - (1));
+switch (G__46559) {
 case (1):
 return self__.cljs$core$IFn$_invoke$arity$1((arguments[(1)]));
 

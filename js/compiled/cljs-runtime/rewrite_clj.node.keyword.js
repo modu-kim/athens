@@ -197,12 +197,12 @@ return (new rewrite_clj.node.keyword.KeywordNode(self__.k,self__.namespaced_QMAR
 (rewrite_clj.node.keyword.KeywordNode.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4387__auto__,k__4388__auto__,G__29379){
 var self__ = this;
 var this__4387__auto____$1 = this;
-var pred__29396 = cljs.core.keyword_identical_QMARK_;
-var expr__29397 = k__4388__auto__;
-if(cljs.core.truth_((pred__29396.cljs$core$IFn$_invoke$arity$2 ? pred__29396.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"k","k",-2146297393),expr__29397) : pred__29396.call(null,new cljs.core.Keyword(null,"k","k",-2146297393),expr__29397)))){
+var pred__29393 = cljs.core.keyword_identical_QMARK_;
+var expr__29394 = k__4388__auto__;
+if(cljs.core.truth_((pred__29393.cljs$core$IFn$_invoke$arity$2 ? pred__29393.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"k","k",-2146297393),expr__29394) : pred__29393.call(null,new cljs.core.Keyword(null,"k","k",-2146297393),expr__29394)))){
 return (new rewrite_clj.node.keyword.KeywordNode(G__29379,self__.namespaced_QMARK_,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((pred__29396.cljs$core$IFn$_invoke$arity$2 ? pred__29396.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"namespaced?","namespaced?",-877312877),expr__29397) : pred__29396.call(null,new cljs.core.Keyword(null,"namespaced?","namespaced?",-877312877),expr__29397)))){
+if(cljs.core.truth_((pred__29393.cljs$core$IFn$_invoke$arity$2 ? pred__29393.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"namespaced?","namespaced?",-877312877),expr__29394) : pred__29393.call(null,new cljs.core.Keyword(null,"namespaced?","namespaced?",-877312877),expr__29394)))){
 return (new rewrite_clj.node.keyword.KeywordNode(self__.k,G__29379,self__.__meta,self__.__extmap,null));
 } else {
 return (new rewrite_clj.node.keyword.KeywordNode(self__.k,self__.namespaced_QMARK_,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4388__auto__,G__29379),null));

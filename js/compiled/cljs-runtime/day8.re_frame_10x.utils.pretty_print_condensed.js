@@ -139,14 +139,14 @@ var rep = clojure.string.replace(s,match,trunc_prefix);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(rep,s)){
 return trunc_prefix;
 } else {
-var G__31396 = clojure.string.replace(s,match,trunc_prefix);
-var G__31397 = limit;
-var G__31398 = match;
-var G__31399 = trunc_prefix;
-s = G__31396;
-limit = G__31397;
-match = G__31398;
-trunc_prefix = G__31399;
+var G__31397 = clojure.string.replace(s,match,trunc_prefix);
+var G__31398 = limit;
+var G__31399 = match;
+var G__31400 = trunc_prefix;
+s = G__31397;
+limit = G__31398;
+match = G__31399;
+trunc_prefix = G__31400;
 continue;
 }
 }

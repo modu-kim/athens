@@ -56,14 +56,14 @@ var G__55432_55461 = style_created_handler;
 (stylefy.impl.styles.create_style_BANG_.cljs$core$IFn$_invoke$arity$2 ? stylefy.impl.styles.create_style_BANG_.cljs$core$IFn$_invoke$arity$2(G__55431_55460,G__55432_55461) : stylefy.impl.styles.create_style_BANG_.call(null,G__55431_55460,G__55432_55461));
 
 
-var G__55462 = cljs.core.next(seq__55421__$1);
-var G__55463 = null;
-var G__55464 = (0);
+var G__55463 = cljs.core.next(seq__55421__$1);
+var G__55464 = null;
 var G__55465 = (0);
-seq__55421 = G__55462;
-chunk__55422 = G__55463;
-count__55423 = G__55464;
-i__55424 = G__55465;
+var G__55466 = (0);
+seq__55421 = G__55463;
+chunk__55422 = G__55464;
+count__55423 = G__55465;
+i__55424 = G__55466;
 continue;
 }
 } else {

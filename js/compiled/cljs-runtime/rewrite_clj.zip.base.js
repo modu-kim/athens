@@ -20,8 +20,8 @@ return or__4126__auto__;
 return top;
 }
 } else {
-var G__29804 = (function (){var G__29790 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [node], null);
-return (rewrite_clj.node.forms_node.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.forms_node.cljs$core$IFn$_invoke$arity$1(G__29790) : rewrite_clj.node.forms_node.call(null,G__29790));
+var G__29804 = (function (){var G__29789 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [node], null);
+return (rewrite_clj.node.forms_node.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.forms_node.cljs$core$IFn$_invoke$arity$1(G__29789) : rewrite_clj.node.forms_node.call(null,G__29789));
 })();
 node = G__29804;
 continue;
@@ -69,12 +69,12 @@ return (rewrite_clj.node.child_sexprs.cljs$core$IFn$_invoke$arity$1 ? rewrite_cl
  * Get length of printable string for the given zipper location.
  */
 rewrite_clj.zip.base.length = (function rewrite_clj$zip$base$length(zloc){
-var or__4126__auto__ = (function (){var G__29799 = zloc;
-var G__29799__$1 = (((G__29799 == null))?null:clojure.zip.node(G__29799));
-if((G__29799__$1 == null)){
+var or__4126__auto__ = (function (){var G__29798 = zloc;
+var G__29798__$1 = (((G__29798 == null))?null:clojure.zip.node(G__29798));
+if((G__29798__$1 == null)){
 return null;
 } else {
-return (rewrite_clj.node.length.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.length.cljs$core$IFn$_invoke$arity$1(G__29799__$1) : rewrite_clj.node.length.call(null,G__29799__$1));
+return (rewrite_clj.node.length.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.length.cljs$core$IFn$_invoke$arity$1(G__29798__$1) : rewrite_clj.node.length.call(null,G__29798__$1));
 }
 })();
 if(cljs.core.truth_(or__4126__auto__)){

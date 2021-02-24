@@ -820,8 +820,8 @@ var child = map__62080__$1;
 var uid__$1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__62080__$1,new cljs.core.Keyword("block","uid","block/uid",-1623585167));
 cljs.core.chunk_append(b__62079,cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.blocks.block_el,child], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),uid__$1], null)));
 
-var G__62108 = (i__62078 + (1));
-i__62078 = G__62108;
+var G__62110 = (i__62078 + (1));
+i__62078 = G__62110;
 continue;
 } else {
 return true;
