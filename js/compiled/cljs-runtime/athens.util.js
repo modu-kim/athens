@@ -90,10 +90,10 @@ while(true){
 if((node__$1 == null)){
 return cljs.core.reverse(nodes);
 } else {
-var G__46443 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(nodes,node__$1);
-var G__46444 = node__$1.parentNode;
-nodes = G__46443;
-node__$1 = G__46444;
+var G__46440 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(nodes,node__$1);
+var G__46441 = node__$1.parentNode;
+nodes = G__46440;
+node__$1 = G__46441;
 continue;
 }
 break;
@@ -142,8 +142,8 @@ return (new Date()).getTime();
  * Returns today's date or a date OFFSET days before today
  */
 athens.util.get_day = (function athens$util$get_day(var_args){
-var G__46396 = arguments.length;
-switch (G__46396) {
+var G__46393 = arguments.length;
+switch (G__46393) {
 case 0:
 return athens.util.get_day.cljs$core$IFn$_invoke$arity$0();
 

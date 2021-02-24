@@ -123,8 +123,8 @@ var f = c.reagentRender;
 var _ = ((cljs.core.ifn_QMARK_(f))?null:(function(){throw (new Error(["Assert failed: ",["Expected something callable, not ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([f], 0))].join(''),"\n","(clojure.core/ifn? f)"].join('')))})());
 var res = ((c.cljsLegacyRender === true)?f.call(c,c):(function (){var v = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.get_argv(c);
 var n = cljs.core.count(v);
-var G__26590 = n;
-switch (G__26590) {
+var G__26585 = n;
+switch (G__26585) {
 case (1):
 return f.call(c);
 
@@ -157,8 +157,8 @@ if(cljs.core.ifn_QMARK_(res)){
 var f__$1 = ((day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.reagent_class_QMARK_(res))?((function (c,f,_,res){
 return (function() { 
 var G__26621__delegate = function (args){
-var G__26591 = cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.vector,res,args);
-return (day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.as_element.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.as_element.cljs$core$IFn$_invoke$arity$1(G__26591) : day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.as_element.call(null,G__26591));
+var G__26587 = cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.vector,res,args);
+return (day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.as_element.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.as_element.cljs$core$IFn$_invoke$arity$1(G__26587) : day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.as_element.call(null,G__26587));
 };
 var G__26621 = function (var_args){
 var args = null;

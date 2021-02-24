@@ -198,8 +198,8 @@ return reitit$core$Router$match_by_path$dyn_60930(this$,path);
 });
 
 var reitit$core$Router$match_by_name$dyn_60931 = (function() {
-var G__60932 = null;
-var G__60932__2 = (function (this$,name){
+var G__60933 = null;
+var G__60933__2 = (function (this$,name){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.match_by_name[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -213,7 +213,7 @@ throw cljs.core.missing_protocol("Router.match-by-name",this$);
 }
 }
 });
-var G__60932__3 = (function (this$,name,path_params){
+var G__60933__3 = (function (this$,name,path_params){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.match_by_name[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -227,18 +227,18 @@ throw cljs.core.missing_protocol("Router.match-by-name",this$);
 }
 }
 });
-G__60932 = function(this$,name,path_params){
+G__60933 = function(this$,name,path_params){
 switch(arguments.length){
 case 2:
-return G__60932__2.call(this,this$,name);
+return G__60933__2.call(this,this$,name);
 case 3:
-return G__60932__3.call(this,this$,name,path_params);
+return G__60933__3.call(this,this$,name,path_params);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
-G__60932.cljs$core$IFn$_invoke$arity$2 = G__60932__2;
-G__60932.cljs$core$IFn$_invoke$arity$3 = G__60932__3;
-return G__60932;
+G__60933.cljs$core$IFn$_invoke$arity$2 = G__60933__2;
+G__60933.cljs$core$IFn$_invoke$arity$3 = G__60933__3;
+return G__60933;
 })()
 ;
 reitit.core.match_by_name = (function reitit$core$match_by_name(var_args){
@@ -1986,13 +1986,13 @@ var wilds_QMARK_ = cljs.core.boolean$(cljs.core.some(reitit.impl.__GT_wild_route
 var all_wilds_QMARK_ = cljs.core.every_QMARK_(reitit.impl.__GT_wild_route_QMARK_(opts__$1),compiled_routes);
 var router__$1 = (cljs.core.truth_(router)?router:((((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((1),cljs.core.count(compiled_routes))) && ((!(wilds_QMARK_)))))?reitit.core.single_static_path_router:(cljs.core.truth_(path_conflicting)?reitit.core.quarantine_router:(((!(wilds_QMARK_)))?reitit.core.lookup_router:((all_wilds_QMARK_)?reitit.core.trie_router:reitit.core.mixed_router
 )))));
-var temp__5735__auto___61032 = new cljs.core.Keyword(null,"conflicts","conflicts",-1219561816).cljs$core$IFn$_invoke$arity$1(opts__$1);
-if(cljs.core.truth_(temp__5735__auto___61032)){
-var conflicts_61033 = temp__5735__auto___61032;
-var temp__5735__auto___61034__$1 = reitit.impl.unresolved_conflicts(path_conflicting);
-if(cljs.core.truth_(temp__5735__auto___61034__$1)){
-var conflict_report_61035 = temp__5735__auto___61034__$1;
-(conflicts_61033.cljs$core$IFn$_invoke$arity$1 ? conflicts_61033.cljs$core$IFn$_invoke$arity$1(conflict_report_61035) : conflicts_61033.call(null,conflict_report_61035));
+var temp__5735__auto___61030 = new cljs.core.Keyword(null,"conflicts","conflicts",-1219561816).cljs$core$IFn$_invoke$arity$1(opts__$1);
+if(cljs.core.truth_(temp__5735__auto___61030)){
+var conflicts_61031 = temp__5735__auto___61030;
+var temp__5735__auto___61032__$1 = reitit.impl.unresolved_conflicts(path_conflicting);
+if(cljs.core.truth_(temp__5735__auto___61032__$1)){
+var conflict_report_61033 = temp__5735__auto___61032__$1;
+(conflicts_61031.cljs$core$IFn$_invoke$arity$1 ? conflicts_61031.cljs$core$IFn$_invoke$arity$1(conflict_report_61033) : conflicts_61031.call(null,conflict_report_61033));
 } else {
 }
 } else {
@@ -2003,10 +2003,10 @@ reitit.exception.fail_BANG_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(
 } else {
 }
 
-var temp__5735__auto___61036 = new cljs.core.Keyword(null,"validate","validate",-201300827).cljs$core$IFn$_invoke$arity$1(opts__$1);
-if(cljs.core.truth_(temp__5735__auto___61036)){
-var validate_61037 = temp__5735__auto___61036;
-(validate_61037.cljs$core$IFn$_invoke$arity$2 ? validate_61037.cljs$core$IFn$_invoke$arity$2(compiled_routes,opts__$1) : validate_61037.call(null,compiled_routes,opts__$1));
+var temp__5735__auto___61034 = new cljs.core.Keyword(null,"validate","validate",-201300827).cljs$core$IFn$_invoke$arity$1(opts__$1);
+if(cljs.core.truth_(temp__5735__auto___61034)){
+var validate_61035 = temp__5735__auto___61034;
+(validate_61035.cljs$core$IFn$_invoke$arity$2 ? validate_61035.cljs$core$IFn$_invoke$arity$2(compiled_routes,opts__$1) : validate_61035.call(null,compiled_routes,opts__$1));
 } else {
 }
 

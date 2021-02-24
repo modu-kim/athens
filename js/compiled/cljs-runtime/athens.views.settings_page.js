@@ -39,7 +39,6 @@ return null;
 athens.views.settings_page.handle_change_email = (function athens$views$settings_page$handle_change_email(email,value){
 return cljs.core.reset_BANG_(email,value);
 });
-athens.views.settings_page.a = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(null);
 athens.views.settings_page.handle_click_email = (function athens$views$settings_page$handle_click_email(email,authed_QMARK_,sending_request){
 var api = "https://dhx9n94ty5.execute-api.us-east-1.amazonaws.com/Prod/hello";
 var email_qs = "?email=";
