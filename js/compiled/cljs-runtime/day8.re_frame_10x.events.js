@@ -244,10 +244,10 @@ day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_db.cljs$
 return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.cljs$core$IFn$_invoke$arity$1(G__33762) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.call(null,G__33762));
 })(),day8.re_frame_10x.events.fixed_after((function (p1__33761_SHARP_){
 return day8.re_frame_10x.utils.localstorage.save_BANG_("app-db-follows-events?",p1__33761_SHARP_);
-}))], null),(function (db,p__33763){
-var vec__33764 = p__33763;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33764,(0),null);
-var follows_events_QMARK_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33764,(1),null);
+}))], null),(function (db,p__33764){
+var vec__33765 = p__33764;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33765,(0),null);
+var follows_events_QMARK_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33765,(1),null);
 return follows_events_QMARK_;
 }));
 day8.re_frame_10x.events.mount = (function day8$re_frame_10x$events$mount(popup_window,popup_document){
@@ -257,30 +257,30 @@ var handle_window_resize = (function (e){
 if(cljs.core.truth_(cljs.core.deref(resize_update_scheduled_QMARK_))){
 return null;
 } else {
-var G__33767_34032 = (function (){
-var width_34033 = popup_window.innerWidth;
-var height_34034 = popup_window.innerHeight;
-var G__33768_34035 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("settings","external-window-resize","settings/external-window-resize",1415354649),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"width","width",-384071477),width_34033,new cljs.core.Keyword(null,"height","height",1025178622),height_34034], null)], null);
-(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__33768_34035) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.call(null,G__33768_34035));
+var G__33781_34034 = (function (){
+var width_34035 = popup_window.innerWidth;
+var height_34036 = popup_window.innerHeight;
+var G__33784_34037 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("settings","external-window-resize","settings/external-window-resize",1415354649),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"width","width",-384071477),width_34035,new cljs.core.Keyword(null,"height","height",1025178622),height_34036], null)], null);
+(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__33784_34037) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.call(null,G__33784_34037));
 
 return cljs.core.reset_BANG_(resize_update_scheduled_QMARK_,false);
 });
-(reagent.impl.batching.next_tick.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.batching.next_tick.cljs$core$IFn$_invoke$arity$1(G__33767_34032) : reagent.impl.batching.next_tick.call(null,G__33767_34032));
+(reagent.impl.batching.next_tick.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.batching.next_tick.cljs$core$IFn$_invoke$arity$1(G__33781_34034) : reagent.impl.batching.next_tick.call(null,G__33781_34034));
 
 return cljs.core.reset_BANG_(resize_update_scheduled_QMARK_,true);
 }
 });
 var handle_window_position = (function (){var pos = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 return (function (){
-var map__33769 = cljs.core.deref(pos);
-var map__33769__$1 = (((((!((map__33769 == null))))?(((((map__33769.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33769.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33769):map__33769);
-var left = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33769__$1,new cljs.core.Keyword(null,"left","left",-399115937));
-var top = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33769__$1,new cljs.core.Keyword(null,"top","top",-1856271961));
+var map__33788 = cljs.core.deref(pos);
+var map__33788__$1 = (((((!((map__33788 == null))))?(((((map__33788.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33788.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33788):map__33788);
+var left = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33788__$1,new cljs.core.Keyword(null,"left","left",-399115937));
+var top = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33788__$1,new cljs.core.Keyword(null,"top","top",-1856271961));
 var screen_left = popup_window.screenX;
 var screen_top = popup_window.screenY;
 if(((cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(left,screen_left)) || (cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(top,screen_top)))){
-var G__33771_34040 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("settings","external-window-position","settings/external-window-position",-1880269094),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"left","left",-399115937),screen_left,new cljs.core.Keyword(null,"top","top",-1856271961),screen_top], null)], null);
-(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__33771_34040) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.call(null,G__33771_34040));
+var G__33790_34042 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("settings","external-window-position","settings/external-window-position",-1880269094),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"left","left",-399115937),screen_left,new cljs.core.Keyword(null,"top","top",-1856271961),screen_top], null)], null);
+(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__33790_34042) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.call(null,G__33790_34042));
 
 return cljs.core.reset_BANG_(pos,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"left","left",-399115937),screen_left,new cljs.core.Keyword(null,"top","top",-1856271961),screen_top], null));
 } else {
@@ -292,10 +292,10 @@ var window_position_interval = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(null
 var unmount = (function (_){
 popup_window.removeEventListener("resize",handle_window_resize);
 
-var G__33772_34043 = cljs.core.deref(window_position_interval);
-if((G__33772_34043 == null)){
+var G__33791_34043 = cljs.core.deref(window_position_interval);
+if((G__33791_34043 == null)){
 } else {
-clearInterval(G__33772_34043);
+clearInterval(G__33791_34043);
 }
 
 return null;
@@ -303,8 +303,8 @@ return null;
 day8.re_frame_10x.styles.inject_trace_styles(popup_document);
 
 goog.object.set(popup_window,"onunload",(function (){
-var G__33773 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("global","external-closed","global/external-closed",1633013375)], null);
-return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__33773) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.call(null,G__33773));
+var G__33792 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("global","external-closed","global/external-closed",1633013375)], null);
+return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__33792) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.call(null,G__33792));
 }));
 
 return day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.core.render.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.core.create_class(new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"display-name","display-name",694513143),"devtools outer external",new cljs.core.Keyword(null,"component-did-mount","component-did-mount",-1126910518),(function (){
@@ -320,14 +320,14 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 /**
  * Originally copied from re-frisk.devtool/open-debugger-window
  */
-day8.re_frame_10x.events.open_debugger_window = (function day8$re_frame_10x$events$open_debugger_window(p__33774){
-var map__33775 = p__33774;
-var map__33775__$1 = (((((!((map__33775 == null))))?(((((map__33775.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33775.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33775):map__33775);
-var dimensions = map__33775__$1;
-var width = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33775__$1,new cljs.core.Keyword(null,"width","width",-384071477));
-var height = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33775__$1,new cljs.core.Keyword(null,"height","height",1025178622));
-var top = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33775__$1,new cljs.core.Keyword(null,"top","top",-1856271961));
-var left = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33775__$1,new cljs.core.Keyword(null,"left","left",-399115937));
+day8.re_frame_10x.events.open_debugger_window = (function day8$re_frame_10x$events$open_debugger_window(p__33798){
+var map__33799 = p__33798;
+var map__33799__$1 = (((((!((map__33799 == null))))?(((((map__33799.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33799.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33799):map__33799);
+var dimensions = map__33799__$1;
+var width = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33799__$1,new cljs.core.Keyword(null,"width","width",-384071477));
+var height = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33799__$1,new cljs.core.Keyword(null,"height","height",1025178622));
+var top = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33799__$1,new cljs.core.Keyword(null,"top","top",-1856271961));
+var left = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33799__$1,new cljs.core.Keyword(null,"left","left",-399115937));
 var doc_title = document.title;
 var new_window_title = goog.string.escapeString(["re-frame-10x | ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(doc_title)].join(''));
 var new_window_html = ["<head><title>",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new_window_title),"</title></head><body style=\"margin: 0px;\"><div id=\"--re-frame-10x--\" class=\"external-window\"></div></body>"].join('');
@@ -364,46 +364,46 @@ day8.re_frame_10x.utils.localstorage.save_BANG_("external-window?",false);
 
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc_in(new cljs.core.Keyword(null,"db","db",993250759).cljs$core$IFn$_invoke$arity$1(ctx),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"settings","settings",1556144875),new cljs.core.Keyword(null,"external-window?","external-window?",-1259873803)], null),false),new cljs.core.Keyword(null,"dispatch-later","dispatch-later",291951390),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ms","ms",-1152709733),(400),new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("settings","show-panel?","settings/show-panel?",-194286945),true], null)], null)], null)], null);
 }));
-day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("settings","external-window-dimensions","settings/external-window-dimensions",-501632461),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(function (){var G__33792 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"settings","settings",1556144875),new cljs.core.Keyword(null,"external-window-dimensions","external-window-dimensions",-1264257454)], null);
-return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.cljs$core$IFn$_invoke$arity$1(G__33792) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.call(null,G__33792));
-})(),(function (){var G__33795 = (function (p1__33790_SHARP_){
-return day8.re_frame_10x.utils.localstorage.save_BANG_("external-window-dimensions",p1__33790_SHARP_);
+day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("settings","external-window-dimensions","settings/external-window-dimensions",-501632461),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(function (){var G__33815 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"settings","settings",1556144875),new cljs.core.Keyword(null,"external-window-dimensions","external-window-dimensions",-1264257454)], null);
+return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.cljs$core$IFn$_invoke$arity$1(G__33815) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.call(null,G__33815));
+})(),(function (){var G__33816 = (function (p1__33814_SHARP_){
+return day8.re_frame_10x.utils.localstorage.save_BANG_("external-window-dimensions",p1__33814_SHARP_);
 });
-return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.cljs$core$IFn$_invoke$arity$1(G__33795) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.call(null,G__33795));
-})()], null),(function (dim,p__33798){
-var vec__33800 = p__33798;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33800,(0),null);
-var new_dim = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33800,(1),null);
+return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.cljs$core$IFn$_invoke$arity$1(G__33816) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.call(null,G__33816));
+})()], null),(function (dim,p__33817){
+var vec__33818 = p__33817;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33818,(0),null);
+var new_dim = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33818,(1),null);
 return new_dim;
 }));
-day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("settings","external-window-resize","settings/external-window-resize",1415354649),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(function (){var G__33804 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"settings","settings",1556144875),new cljs.core.Keyword(null,"external-window-dimensions","external-window-dimensions",-1264257454)], null);
-return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.cljs$core$IFn$_invoke$arity$1(G__33804) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.call(null,G__33804));
-})(),(function (){var G__33805 = (function (p1__33803_SHARP_){
-return day8.re_frame_10x.utils.localstorage.save_BANG_("external-window-dimensions",p1__33803_SHARP_);
+day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("settings","external-window-resize","settings/external-window-resize",1415354649),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(function (){var G__33822 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"settings","settings",1556144875),new cljs.core.Keyword(null,"external-window-dimensions","external-window-dimensions",-1264257454)], null);
+return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.cljs$core$IFn$_invoke$arity$1(G__33822) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.call(null,G__33822));
+})(),(function (){var G__33823 = (function (p1__33821_SHARP_){
+return day8.re_frame_10x.utils.localstorage.save_BANG_("external-window-dimensions",p1__33821_SHARP_);
 });
-return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.cljs$core$IFn$_invoke$arity$1(G__33805) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.call(null,G__33805));
-})()], null),(function (dim,p__33806){
-var vec__33807 = p__33806;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33807,(0),null);
-var map__33810 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33807,(1),null);
-var map__33810__$1 = (((((!((map__33810 == null))))?(((((map__33810.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33810.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33810):map__33810);
-var width = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33810__$1,new cljs.core.Keyword(null,"width","width",-384071477));
-var height = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33810__$1,new cljs.core.Keyword(null,"height","height",1025178622));
+return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.cljs$core$IFn$_invoke$arity$1(G__33823) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.call(null,G__33823));
+})()], null),(function (dim,p__33824){
+var vec__33825 = p__33824;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33825,(0),null);
+var map__33828 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33825,(1),null);
+var map__33828__$1 = (((((!((map__33828 == null))))?(((((map__33828.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33828.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33828):map__33828);
+var width = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33828__$1,new cljs.core.Keyword(null,"width","width",-384071477));
+var height = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33828__$1,new cljs.core.Keyword(null,"height","height",1025178622));
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(dim,new cljs.core.Keyword(null,"width","width",-384071477),width,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"height","height",1025178622),height], 0));
 }));
-day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("settings","external-window-position","settings/external-window-position",-1880269094),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(function (){var G__33813 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"settings","settings",1556144875),new cljs.core.Keyword(null,"external-window-dimensions","external-window-dimensions",-1264257454)], null);
-return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.cljs$core$IFn$_invoke$arity$1(G__33813) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.call(null,G__33813));
-})(),(function (){var G__33814 = (function (p1__33812_SHARP_){
-return day8.re_frame_10x.utils.localstorage.save_BANG_("external-window-dimensions",p1__33812_SHARP_);
+day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("settings","external-window-position","settings/external-window-position",-1880269094),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(function (){var G__33831 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"settings","settings",1556144875),new cljs.core.Keyword(null,"external-window-dimensions","external-window-dimensions",-1264257454)], null);
+return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.cljs$core$IFn$_invoke$arity$1(G__33831) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.path.call(null,G__33831));
+})(),(function (){var G__33832 = (function (p1__33830_SHARP_){
+return day8.re_frame_10x.utils.localstorage.save_BANG_("external-window-dimensions",p1__33830_SHARP_);
 });
-return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.cljs$core$IFn$_invoke$arity$1(G__33814) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.call(null,G__33814));
-})()], null),(function (dim,p__33815){
-var vec__33816 = p__33815;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33816,(0),null);
-var map__33819 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33816,(1),null);
-var map__33819__$1 = (((((!((map__33819 == null))))?(((((map__33819.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33819.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33819):map__33819);
-var left = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33819__$1,new cljs.core.Keyword(null,"left","left",-399115937));
-var top = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33819__$1,new cljs.core.Keyword(null,"top","top",-1856271961));
+return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.cljs$core$IFn$_invoke$arity$1(G__33832) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.after.call(null,G__33832));
+})()], null),(function (dim,p__33833){
+var vec__33834 = p__33833;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33834,(0),null);
+var map__33837 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33834,(1),null);
+var map__33837__$1 = (((((!((map__33837 == null))))?(((((map__33837.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33837.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33837):map__33837);
+var left = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33837__$1,new cljs.core.Keyword(null,"left","left",-399115937));
+var top = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33837__$1,new cljs.core.Keyword(null,"top","top",-1856271961));
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(dim,new cljs.core.Keyword(null,"left","left",-399115937),left,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"top","top",-1856271961),top], 0));
 }));
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("global","enable-tracing","global/enable-tracing",-1791988359),(function (ctx,_){
@@ -418,16 +418,16 @@ return null;
 }));
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("global","add-unload-hook","global/add-unload-hook",1304719430),(function (_,___$1){
 window.addEventListener("beforeunload",(function (){
-var G__33830 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("global","unloading?","global/unloading?",-351325001),true], null);
-return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1(G__33830) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch_sync.call(null,G__33830));
+var G__33839 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("global","unloading?","global/unloading?",-351325001),true], null);
+return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1(G__33839) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch_sync.call(null,G__33839));
 }));
 
 return null;
 }));
-day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("global","unloading?","global/unloading?",-351325001),(function (db,p__33833){
-var vec__33835 = p__33833;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33835,(0),null);
-var unloading_QMARK_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33835,(1),null);
+day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("global","unloading?","global/unloading?",-351325001),(function (db,p__33840){
+var vec__33841 = p__33840;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33841,(0),null);
+var unloading_QMARK_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33841,(1),null);
 return cljs.core.assoc_in(db,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"global","global",93595047),new cljs.core.Keyword(null,"unloading?","unloading?",621163286)], null),unloading_QMARK_);
 }));
 day8.re_frame_10x.events.save_filter_items = (function day8$re_frame_10x$events$save_filter_items(filter_items){

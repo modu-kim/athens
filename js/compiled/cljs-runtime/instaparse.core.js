@@ -4,8 +4,8 @@ instaparse.core._STAR_default_output_format_STAR_ = new cljs.core.Keyword(null,"
  * Changes the default output format.  Input should be :hiccup or :enlive
  */
 instaparse.core.set_default_output_format_BANG_ = (function instaparse$core$set_default_output_format_BANG_(type){
-if(cljs.core.truth_((function (){var fexpr__48297 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),null,new cljs.core.Keyword(null,"enlive","enlive",1679023921),null], null), null);
-return (fexpr__48297.cljs$core$IFn$_invoke$arity$1 ? fexpr__48297.cljs$core$IFn$_invoke$arity$1(type) : fexpr__48297.call(null,type));
+if(cljs.core.truth_((function (){var fexpr__48293 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),null,new cljs.core.Keyword(null,"enlive","enlive",1679023921),null], null), null);
+return (fexpr__48293.cljs$core$IFn$_invoke$arity$1 ? fexpr__48293.cljs$core$IFn$_invoke$arity$1(type) : fexpr__48293.call(null,type));
 })())){
 } else {
 throw (new Error("Assert failed: (#{:hiccup :enlive} type)"));
@@ -18,8 +18,8 @@ instaparse.core._STAR_default_input_format_STAR_ = new cljs.core.Keyword(null,"e
  * Changes the default input format.  Input should be :abnf or :ebnf
  */
 instaparse.core.set_default_input_format_BANG_ = (function instaparse$core$set_default_input_format_BANG_(type){
-if(cljs.core.truth_((function (){var fexpr__48298 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ebnf","ebnf",31967825),null,new cljs.core.Keyword(null,"abnf","abnf",-152462052),null], null), null);
-return (fexpr__48298.cljs$core$IFn$_invoke$arity$1 ? fexpr__48298.cljs$core$IFn$_invoke$arity$1(type) : fexpr__48298.call(null,type));
+if(cljs.core.truth_((function (){var fexpr__48294 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ebnf","ebnf",31967825),null,new cljs.core.Keyword(null,"abnf","abnf",-152462052),null], null), null);
+return (fexpr__48294.cljs$core$IFn$_invoke$arity$1 ? fexpr__48294.cljs$core$IFn$_invoke$arity$1(type) : fexpr__48294.call(null,type));
 })())){
 } else {
 throw (new Error("Assert failed: (#{:ebnf :abnf} type)"));
@@ -588,14 +588,14 @@ return cljs.core._write(writer,instaparse.print.Parser__GT_str(parser__$1));
  */
 instaparse.core.parser = (function instaparse$core$parser(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___48420 = arguments.length;
-var i__4737__auto___48421 = (0);
+var len__4736__auto___48416 = arguments.length;
+var i__4737__auto___48417 = (0);
 while(true){
-if((i__4737__auto___48421 < len__4736__auto___48420)){
-args__4742__auto__.push((arguments[i__4737__auto___48421]));
+if((i__4737__auto___48417 < len__4736__auto___48416)){
+args__4742__auto__.push((arguments[i__4737__auto___48417]));
 
-var G__48422 = (i__4737__auto___48421 + (1));
-i__4737__auto___48421 = G__48422;
+var G__48421 = (i__4737__auto___48417 + (1));
+i__4737__auto___48417 = G__48421;
 continue;
 } else {
 }

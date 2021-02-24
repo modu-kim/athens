@@ -86,7 +86,7 @@ return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.co
  */
 athens.router.nav_daily_notes = (function athens$router$nav_daily_notes(){
 var route_uid = cljs.core.deref(re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("current-route","uid","current-route/uid",-327873095)], null)));
-if(athens.util.is_timeline_page(route_uid)){
+if(athens.util.is_daily_note(route_uid)){
 re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("daily-notes","add","daily-notes/add",1566486218),route_uid], null));
 } else {
 re_frame.core.dispatch(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("daily-notes","reset","daily-notes/reset",1615543639)], null));

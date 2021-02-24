@@ -11,8 +11,8 @@ return module$node_modules$react_dom$index.unmountComponentAtNode(container);
 });
 reagent.dom.render_comp = (function reagent$dom$render_comp(comp,container,callback){
 var _STAR_always_update_STAR__orig_val__31810 = reagent.impl.util._STAR_always_update_STAR_;
-var _STAR_always_update_STAR__temp_val__31811 = true;
-(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__temp_val__31811);
+var _STAR_always_update_STAR__temp_val__31812 = true;
+(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__temp_val__31812);
 
 try{return module$node_modules$react_dom$index.render((comp.cljs$core$IFn$_invoke$arity$0 ? comp.cljs$core$IFn$_invoke$arity$0() : comp.call(null)),container,(function (){
 var _STAR_always_update_STAR__orig_val__31815 = reagent.impl.util._STAR_always_update_STAR_;

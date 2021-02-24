@@ -247,8 +247,8 @@ return cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(state),new
  *   clojure.core/ns-interns but returns var analysis maps not vars.
  */
 cljs.analyzer.api.ns_interns = (function cljs$analyzer$api$ns_interns(var_args){
-var G__56749 = arguments.length;
-switch (G__56749) {
+var G__56750 = arguments.length;
+switch (G__56750) {
 case 1:
 return cljs.analyzer.api.ns_interns.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -283,8 +283,8 @@ return cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.c
  *   clojure.core/ns-publics but returns var analysis maps not vars.
  */
 cljs.analyzer.api.ns_publics = (function cljs$analyzer$api$ns_publics(var_args){
-var G__56768 = arguments.length;
-switch (G__56768) {
+var G__56773 = arguments.length;
+switch (G__56773) {
 case 1:
 return cljs.analyzer.api.ns_publics.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -309,10 +309,10 @@ if((ns instanceof cljs.core.Symbol)){
 throw (new Error("Assert failed: (symbol? ns)"));
 }
 
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,cljs.core.remove.cljs$core$IFn$_invoke$arity$2((function (p__56786){
-var vec__56788 = p__56786;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56788,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56788,(1),null);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,cljs.core.remove.cljs$core$IFn$_invoke$arity$2((function (p__56792){
+var vec__56796 = p__56792;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56796,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56796,(1),null);
 return new cljs.core.Keyword(null,"private","private",-558947994).cljs$core$IFn$_invoke$arity$1(v);
 }),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(state),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("cljs.analyzer","namespaces","cljs.analyzer/namespaces",-260788927),ns,new cljs.core.Keyword(null,"macros","macros",811339431)], null)),cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(state),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("cljs.analyzer","namespaces","cljs.analyzer/namespaces",-260788927),ns,new cljs.core.Keyword(null,"defs","defs",1398449717)], null))], 0))));
 }));

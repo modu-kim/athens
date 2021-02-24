@@ -37,13 +37,13 @@ stylefy.impl.log.warn(["Incorrect mode detected, should not contain spaces. Mode
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(["&",cljs.core.str.cljs$core$IFn$_invoke$arity$1(mode_name)].join('')),mode_props], null);
 });
 if(cljs.core.map_QMARK_(modes)){
-return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__54394_SHARP_){
-return handle_mode(p1__54394_SHARP_,cljs.core.get.cljs$core$IFn$_invoke$arity$2(modes,p1__54394_SHARP_));
+return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__54402_SHARP_){
+return handle_mode(p1__54402_SHARP_,cljs.core.get.cljs$core$IFn$_invoke$arity$2(modes,p1__54402_SHARP_));
 }),cljs.core.keys(modes));
 } else {
 if(cljs.core.vector_QMARK_(modes)){
-return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__54395_SHARP_){
-return handle_mode(cljs.core.first(p1__54395_SHARP_),cljs.core.second(p1__54395_SHARP_));
+return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__54403_SHARP_){
+return handle_mode(cljs.core.first(p1__54403_SHARP_),cljs.core.second(p1__54403_SHARP_));
 }),modes);
 } else {
 return null;
@@ -127,13 +127,13 @@ return null;
 /**
  * Converts stylefy/supports definition into CSS feature query.
  */
-stylefy.impl.conversion.convert_supports_rules = (function stylefy$impl$conversion$convert_supports_rules(p__54413,options){
-var map__54414 = p__54413;
-var map__54414__$1 = (((((!((map__54414 == null))))?(((((map__54414.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__54414.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__54414):map__54414);
-var style = map__54414__$1;
-var props = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54414__$1,new cljs.core.Keyword(null,"props","props",453281727));
-var hash = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54414__$1,new cljs.core.Keyword(null,"hash","hash",-13781596));
-var custom_selector = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54414__$1,new cljs.core.Keyword(null,"custom-selector","custom-selector",-474556277));
+stylefy.impl.conversion.convert_supports_rules = (function stylefy$impl$conversion$convert_supports_rules(p__54414,options){
+var map__54415 = p__54414;
+var map__54415__$1 = (((((!((map__54415 == null))))?(((((map__54415.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__54415.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__54415):map__54415);
+var style = map__54415__$1;
+var props = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54415__$1,new cljs.core.Keyword(null,"props","props",453281727));
+var hash = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54415__$1,new cljs.core.Keyword(null,"hash","hash",-13781596));
+var custom_selector = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54415__$1,new cljs.core.Keyword(null,"custom-selector","custom-selector",-474556277));
 var temp__5735__auto__ = new cljs.core.Keyword("stylefy.core","supports","stylefy.core/supports",105019324).cljs$core$IFn$_invoke$arity$1(props);
 if(cljs.core.truth_(temp__5735__auto__)){
 var stylefy_supports = temp__5735__auto__;

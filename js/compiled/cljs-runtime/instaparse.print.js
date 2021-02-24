@@ -1,7 +1,7 @@
 goog.provide('instaparse.print');
 instaparse.print.paren_for_tags = (function instaparse$print$paren_for_tags(tag_set,hidden_QMARK_,parser){
-if(cljs.core.truth_(((cljs.core.not(hidden_QMARK_))?(function (){var G__46599 = (parser.cljs$core$IFn$_invoke$arity$1 ? parser.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"tag","tag",-1290361223)) : parser.call(null,new cljs.core.Keyword(null,"tag","tag",-1290361223)));
-return (tag_set.cljs$core$IFn$_invoke$arity$1 ? tag_set.cljs$core$IFn$_invoke$arity$1(G__46599) : tag_set.call(null,G__46599));
+if(cljs.core.truth_(((cljs.core.not(hidden_QMARK_))?(function (){var G__46595 = (parser.cljs$core$IFn$_invoke$arity$1 ? parser.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"tag","tag",-1290361223)) : parser.call(null,new cljs.core.Keyword(null,"tag","tag",-1290361223)));
+return (tag_set.cljs$core$IFn$_invoke$arity$1 ? tag_set.cljs$core$IFn$_invoke$arity$1(G__46595) : tag_set.call(null,G__46595));
 })():false))){
 return ["(",cljs.core.str.cljs$core$IFn$_invoke$arity$1((instaparse.print.combinators__GT_str.cljs$core$IFn$_invoke$arity$2 ? instaparse.print.combinators__GT_str.cljs$core$IFn$_invoke$arity$2(parser,false) : instaparse.print.combinators__GT_str.call(null,parser,false))),")"].join('');
 } else {
@@ -13,8 +13,8 @@ instaparse.print.paren_for_compound = cljs.core.partial.cljs$core$IFn$_invoke$ar
  * Replaces whitespace characters with escape sequences for better printing
  */
 instaparse.print.regexp_replace = (function instaparse$print$regexp_replace(s){
-var G__46600 = s;
-switch (G__46600) {
+var G__46596 = s;
+switch (G__46596) {
 case "\n":
 return "\\n";
 
@@ -51,11 +51,11 @@ return n.toString((16));
 }
 });
 
-instaparse.print.char_range__GT_str = (function instaparse$print$char_range__GT_str(p__46601){
-var map__46602 = p__46601;
-var map__46602__$1 = (((((!((map__46602 == null))))?(((((map__46602.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__46602.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__46602):map__46602);
-var lo = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46602__$1,new cljs.core.Keyword(null,"lo","lo",-931799889));
-var hi = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46602__$1,new cljs.core.Keyword(null,"hi","hi",-1821422114));
+instaparse.print.char_range__GT_str = (function instaparse$print$char_range__GT_str(p__46599){
+var map__46600 = p__46599;
+var map__46600__$1 = (((((!((map__46600 == null))))?(((((map__46600.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__46600.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__46600):map__46600);
+var lo = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46600__$1,new cljs.core.Keyword(null,"lo","lo",-931799889));
+var hi = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46600__$1,new cljs.core.Keyword(null,"hi","hi",-1821422114));
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(lo,hi)){
 return ["%x",cljs.core.str.cljs$core$IFn$_invoke$arity$1(instaparse.print.number__GT_hex_padded(lo))].join('');
 } else {

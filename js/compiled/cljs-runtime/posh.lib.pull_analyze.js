@@ -132,9 +132,9 @@ return posh.lib.pull_analyze.tx_datoms_for_pull_map(schema,new cljs.core.Keyword
 });
 posh.lib.pull_analyze.limit_spec_QMARK_ = (function posh$lib$pull_analyze$limit_spec_QMARK_(x){
 if(cljs.core.seq_QMARK_(x)){
-var G__34152 = cljs.core.first(x);
-var fexpr__34151 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Symbol(null,"limit","limit",284709164,null),null,"limit",null], null), null);
-return (fexpr__34151.cljs$core$IFn$_invoke$arity$1 ? fexpr__34151.cljs$core$IFn$_invoke$arity$1(G__34152) : fexpr__34151.call(null,G__34152));
+var G__34153 = cljs.core.first(x);
+var fexpr__34152 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Symbol(null,"limit","limit",284709164,null),null,"limit",null], null), null);
+return (fexpr__34152.cljs$core$IFn$_invoke$arity$1 ? fexpr__34152.cljs$core$IFn$_invoke$arity$1(G__34153) : fexpr__34152.call(null,G__34153));
 } else {
 return false;
 }
@@ -223,22 +223,22 @@ return cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.c
 return null;
 }
 });
-posh.lib.pull_analyze.pull_many_analyze = (function posh$lib$pull_analyze$pull_many_analyze(dcfg,retrieve,p__34222,pull_pattern,ent_ids){
-var map__34223 = p__34222;
-var map__34223__$1 = (((((!((map__34223 == null))))?(((((map__34223.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__34223.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__34223):map__34223);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34223__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var schema = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34223__$1,new cljs.core.Keyword(null,"schema","schema",-1582001791));
-var db_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34223__$1,new cljs.core.Keyword(null,"db-id","db-id",747248515));
+posh.lib.pull_analyze.pull_many_analyze = (function posh$lib$pull_analyze$pull_many_analyze(dcfg,retrieve,p__34224,pull_pattern,ent_ids){
+var map__34225 = p__34224;
+var map__34225__$1 = (((((!((map__34225 == null))))?(((((map__34225.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__34225.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__34225):map__34225);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34225__$1,new cljs.core.Keyword(null,"db","db",993250759));
+var schema = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34225__$1,new cljs.core.Keyword(null,"schema","schema",-1582001791));
+var db_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34225__$1,new cljs.core.Keyword(null,"db-id","db-id",747248515));
 if(cljs.core.empty_QMARK_(retrieve)){
 return null;
 } else {
-var resolved_ent_ids = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__34214_SHARP_){
-var fexpr__34229 = new cljs.core.Keyword(null,"entid","entid",1720688982).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__34229.cljs$core$IFn$_invoke$arity$2 ? fexpr__34229.cljs$core$IFn$_invoke$arity$2(db,p1__34214_SHARP_) : fexpr__34229.call(null,db,p1__34214_SHARP_));
+var resolved_ent_ids = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__34216_SHARP_){
+var fexpr__34232 = new cljs.core.Keyword(null,"entid","entid",1720688982).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__34232.cljs$core$IFn$_invoke$arity$2 ? fexpr__34232.cljs$core$IFn$_invoke$arity$2(db,p1__34216_SHARP_) : fexpr__34232.call(null,db,p1__34216_SHARP_));
 }),ent_ids);
 var affected_datoms = posh.lib.pull_analyze.pull_affected_datoms(new cljs.core.Keyword(null,"pull-many","pull-many",217148130).cljs$core$IFn$_invoke$arity$1(dcfg),db,pull_pattern,ent_ids);
-return cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(cljs.core.truth_(cljs.core.some(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"results","results",-1134170113),null], null), null),retrieve))?new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"results","results",-1134170113),affected_datoms], null):null),(cljs.core.truth_(cljs.core.some(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"datoms-t","datoms-t",1641690868),null,new cljs.core.Keyword(null,"datoms","datoms",-290874434),null], null), null),retrieve))?(function (){var datoms = cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p1__34216_SHARP_){
-return posh.lib.pull_analyze.generate_affected_tx_datoms_for_pull(schema,p1__34216_SHARP_);
+return cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(cljs.core.truth_(cljs.core.some(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"results","results",-1134170113),null], null), null),retrieve))?new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"results","results",-1134170113),affected_datoms], null):null),(cljs.core.truth_(cljs.core.some(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"datoms-t","datoms-t",1641690868),null,new cljs.core.Keyword(null,"datoms","datoms",-290874434),null], null), null),retrieve))?(function (){var datoms = cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p1__34218_SHARP_){
+return posh.lib.pull_analyze.generate_affected_tx_datoms_for_pull(schema,p1__34218_SHARP_);
 }),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([affected_datoms], 0));
 return cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(cljs.core.truth_(cljs.core.some(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"datoms","datoms",-290874434),null], null), null),retrieve))?new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"datoms","datoms",-290874434),cljs.core.PersistentArrayMap.createAsIfByAssoc([db_id,datoms])], null):null),(cljs.core.truth_(cljs.core.some(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"datoms-t","datoms-t",1641690868),null], null), null),retrieve))?new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"datoms-t","datoms-t",1641690868),cljs.core.PersistentArrayMap.createAsIfByAssoc([db_id,posh.lib.util.t_for_datoms(new cljs.core.Keyword(null,"q","q",689001697).cljs$core$IFn$_invoke$arity$1(dcfg),db,datoms)])], null):null)], 0));
 })():null),(cljs.core.truth_(cljs.core.some(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"patterns","patterns",1164082024),null], null), null),retrieve))?new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"patterns","patterns",1164082024),cljs.core.PersistentArrayMap.createAsIfByAssoc([db_id,(function (){var patterns = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__34219_SHARP_){

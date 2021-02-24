@@ -619,8 +619,8 @@ if((i__54268 < size__4528__auto__)){
 var vendor = cljs.core._nth(c__4527__auto__,i__54268);
 cljs.core.chunk_append(b__54269,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [garden.util.vendor_prefix(vendor,cljs.core.name(p)),v], null));
 
-var G__54357 = (i__54268 + (1));
-i__54268 = G__54357;
+var G__54354 = (i__54268 + (1));
+i__54268 = G__54354;
 continue;
 } else {
 return true;

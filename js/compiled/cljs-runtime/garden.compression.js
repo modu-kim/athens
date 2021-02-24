@@ -79,9 +79,9 @@ var tag = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__53256__$1,new cljs.co
 var chunk = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__53256__$1,new cljs.core.Keyword(null,"chunk","chunk",-1191159620));
 var size = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__53256__$1,new cljs.core.Keyword(null,"size","size",1098693007));
 var G__53267 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s1,size);
-var G__53268 = [s2,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__53262 = tag;
-var G__53262__$1 = (((G__53262 instanceof cljs.core.Keyword))?G__53262.fqn:null);
-switch (G__53262__$1) {
+var G__53268 = [s2,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__53259 = tag;
+var G__53259__$1 = (((G__53259 instanceof cljs.core.Keyword))?G__53259.fqn:null);
+switch (G__53259__$1) {
 case "string":
 return chunk;
 
