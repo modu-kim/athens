@@ -23,8 +23,8 @@ return athens.util.scroll_top_BANG_(container,(((e_top < cs_top))?e_top:(((cs_bo
  * Finds offset between mouse event and container. If container is not passed, use target as container.
  */
 athens.util.mouse_offset = (function athens$util$mouse_offset(var_args){
-var G__46383 = arguments.length;
-switch (G__46383) {
+var G__46384 = arguments.length;
+switch (G__46384) {
 case 1:
 return athens.util.mouse_offset.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -90,10 +90,10 @@ while(true){
 if((node__$1 == null)){
 return cljs.core.reverse(nodes);
 } else {
-var G__46445 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(nodes,node__$1);
-var G__46446 = node__$1.parentNode;
-nodes = G__46445;
-node__$1 = G__46446;
+var G__46448 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(nodes,node__$1);
+var G__46450 = node__$1.parentNode;
+nodes = G__46448;
+node__$1 = G__46450;
 continue;
 }
 break;
@@ -114,8 +114,8 @@ return cljs.core.nth.cljs$core$IFn$_invoke$arity$2(p1,(i - (1)));
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(i,n)){
 return (new Error("No common ancestor after n loops!"));
 } else {
-var G__46449 = (i + (1));
-i = G__46449;
+var G__46453 = (i + (1));
+i = G__46453;
 continue;
 
 }
@@ -142,8 +142,8 @@ return (new Date()).getTime();
  * Returns today's date or a date OFFSET days before today
  */
 athens.util.get_day = (function athens$util$get_day(var_args){
-var G__46397 = arguments.length;
-switch (G__46397) {
+var G__46401 = arguments.length;
+switch (G__46401) {
 case 0:
 return athens.util.get_day.cljs$core$IFn$_invoke$arity$0();
 
@@ -190,10 +190,10 @@ return clojure.string.replace(x__$3,/PM/,"pm");
 }
 });
 athens.util.uid_to_date = (function athens$util$uid_to_date(uid){
-try{var vec__46403 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(uid,"-");
-var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46403,(0),null);
-var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46403,(1),null);
-var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46403,(2),null);
+try{var vec__46404 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(uid,"-");
+var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46404,(0),null);
+var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46404,(1),null);
+var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46404,(2),null);
 var rejoin = clojure.string.join.cljs$core$IFn$_invoke$arity$2("-",new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [y,m,d], null));
 return tick.alpha.api.date.cljs$core$IFn$_invoke$arity$1(rejoin);
 }catch (e46402){if((e46402 instanceof Object)){
@@ -285,6 +285,19 @@ if(athens.util.electron_QMARK_()){
 return require("electron").remote.app.getVersion();
 } else {
 return null;
+}
+});
+/**
+ * Reads window size from local-storage and returns the values as a vector
+ */
+athens.util.get_window_size = (function athens$util$get_window_size(){
+var ws = localStorage.getItem("ws/window-size");
+if((ws == null)){
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(800),(600)], null);
+} else {
+return cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__46436_SHARP_){
+return parseInt(p1__46436_SHARP_);
+}),clojure.string.split.cljs$core$IFn$_invoke$arity$2(ws,","));
 }
 });
 

@@ -119,16 +119,16 @@ if((function (){var id = cljs.core.ffirst(leftover_patterns);
 return ((cljs.core.set_QMARK_(id)) || (typeof id === 'number'));
 })()){
 var r = posh.lib.datom_matcher.combine_entids(cljs.core.PersistentHashSet.EMPTY,cljs.core.rest(cljs.core.first(leftover_patterns)),leftover_patterns,new_patterns,cljs.core.PersistentVector.EMPTY);
-var G__34114 = new cljs.core.Keyword(null,"new-patterns","new-patterns",404552774).cljs$core$IFn$_invoke$arity$1(r);
-var G__34115 = new cljs.core.Keyword(null,"leftover-patterns","leftover-patterns",377032963).cljs$core$IFn$_invoke$arity$1(r);
-new_patterns = G__34114;
-leftover_patterns = G__34115;
+var G__34115 = new cljs.core.Keyword(null,"new-patterns","new-patterns",404552774).cljs$core$IFn$_invoke$arity$1(r);
+var G__34116 = new cljs.core.Keyword(null,"leftover-patterns","leftover-patterns",377032963).cljs$core$IFn$_invoke$arity$1(r);
+new_patterns = G__34115;
+leftover_patterns = G__34116;
 continue;
 } else {
-var G__34116 = cljs.core.cons(cljs.core.first(leftover_patterns),new_patterns);
-var G__34117 = cljs.core.rest(leftover_patterns);
-new_patterns = G__34116;
-leftover_patterns = G__34117;
+var G__34117 = cljs.core.cons(cljs.core.first(leftover_patterns),new_patterns);
+var G__34118 = cljs.core.rest(leftover_patterns);
+new_patterns = G__34117;
+leftover_patterns = G__34118;
 continue;
 }
 }

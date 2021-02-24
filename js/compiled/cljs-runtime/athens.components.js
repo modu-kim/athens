@@ -28,10 +28,10 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
  * Renders a component using its parse tree & its uid.
  */
 athens.components.render_component = (function athens$components$render_component(content,uid){
-var render = cljs.core.some((function (p__61809){
-var vec__61810 = p__61809;
-var pattern = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61810,(0),null);
-var render = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61810,(1),null);
+var render = cljs.core.some((function (p__61817){
+var vec__61818 = p__61817;
+var pattern = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61818,(0),null);
+var render = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__61818,(1),null);
 if(cljs.core.truth_(cljs.core.re_matches(pattern,content))){
 return render;
 } else {
