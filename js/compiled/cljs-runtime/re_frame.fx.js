@@ -52,13 +52,13 @@ var count__32448 = (0);
 var i__32449 = (0);
 while(true){
 if((i__32449 < count__32448)){
-var vec__32458 = chunk__32447.cljs$core$IIndexed$_nth$arity$2(null,i__32449);
-var effect_key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32458,(0),null);
-var effect_value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32458,(1),null);
-var temp__5733__auto___32521 = re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(re_frame.fx.kind,effect_key,false);
-if(cljs.core.truth_(temp__5733__auto___32521)){
-var effect_fn_32522 = temp__5733__auto___32521;
-(effect_fn_32522.cljs$core$IFn$_invoke$arity$1 ? effect_fn_32522.cljs$core$IFn$_invoke$arity$1(effect_value) : effect_fn_32522.call(null,effect_value));
+var vec__32456 = chunk__32447.cljs$core$IIndexed$_nth$arity$2(null,i__32449);
+var effect_key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32456,(0),null);
+var effect_value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32456,(1),null);
+var temp__5733__auto___32525 = re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(re_frame.fx.kind,effect_key,false);
+if(cljs.core.truth_(temp__5733__auto___32525)){
+var effect_fn_32526 = temp__5733__auto___32525;
+(effect_fn_32526.cljs$core$IFn$_invoke$arity$1 ? effect_fn_32526.cljs$core$IFn$_invoke$arity$1(effect_value) : effect_fn_32526.call(null,effect_value));
 } else {
 re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"warn","warn",-436710552),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: no handler registered for effect:",effect_key,". Ignoring."], 0));
 }
@@ -79,36 +79,36 @@ if(temp__5735__auto__){
 var seq__32446__$1 = temp__5735__auto__;
 if(cljs.core.chunked_seq_QMARK_(seq__32446__$1)){
 var c__4556__auto__ = cljs.core.chunk_first(seq__32446__$1);
-var G__32531 = cljs.core.chunk_rest(seq__32446__$1);
-var G__32532 = c__4556__auto__;
-var G__32533 = cljs.core.count(c__4556__auto__);
-var G__32534 = (0);
-seq__32446 = G__32531;
-chunk__32447 = G__32532;
-count__32448 = G__32533;
-i__32449 = G__32534;
+var G__32534 = cljs.core.chunk_rest(seq__32446__$1);
+var G__32535 = c__4556__auto__;
+var G__32536 = cljs.core.count(c__4556__auto__);
+var G__32537 = (0);
+seq__32446 = G__32534;
+chunk__32447 = G__32535;
+count__32448 = G__32536;
+i__32449 = G__32537;
 continue;
 } else {
-var vec__32461 = cljs.core.first(seq__32446__$1);
-var effect_key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32461,(0),null);
-var effect_value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32461,(1),null);
-var temp__5733__auto___32535 = re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(re_frame.fx.kind,effect_key,false);
-if(cljs.core.truth_(temp__5733__auto___32535)){
-var effect_fn_32536 = temp__5733__auto___32535;
-(effect_fn_32536.cljs$core$IFn$_invoke$arity$1 ? effect_fn_32536.cljs$core$IFn$_invoke$arity$1(effect_value) : effect_fn_32536.call(null,effect_value));
+var vec__32459 = cljs.core.first(seq__32446__$1);
+var effect_key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32459,(0),null);
+var effect_value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32459,(1),null);
+var temp__5733__auto___32538 = re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(re_frame.fx.kind,effect_key,false);
+if(cljs.core.truth_(temp__5733__auto___32538)){
+var effect_fn_32542 = temp__5733__auto___32538;
+(effect_fn_32542.cljs$core$IFn$_invoke$arity$1 ? effect_fn_32542.cljs$core$IFn$_invoke$arity$1(effect_value) : effect_fn_32542.call(null,effect_value));
 } else {
 re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"warn","warn",-436710552),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: no handler registered for effect:",effect_key,". Ignoring."], 0));
 }
 
 
-var G__32540 = cljs.core.next(seq__32446__$1);
-var G__32541 = null;
-var G__32542 = (0);
-var G__32543 = (0);
-seq__32446 = G__32540;
-chunk__32447 = G__32541;
-count__32448 = G__32542;
-i__32449 = G__32543;
+var G__32543 = cljs.core.next(seq__32446__$1);
+var G__32544 = null;
+var G__32545 = (0);
+var G__32546 = (0);
+seq__32446 = G__32543;
+chunk__32447 = G__32544;
+count__32448 = G__32545;
+i__32449 = G__32546;
 continue;
 }
 } else {
@@ -118,22 +118,22 @@ return null;
 break;
 }
 }finally {if(re_frame.trace.is_trace_enabled_QMARK_()){
-var end__32149__auto___32544 = re_frame.interop.now();
-var duration__32150__auto___32545 = (end__32149__auto___32544 - new cljs.core.Keyword(null,"start","start",-355208981).cljs$core$IFn$_invoke$arity$1(re_frame.trace._STAR_current_trace_STAR_));
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(re_frame.trace.traces,cljs.core.conj,cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(re_frame.trace._STAR_current_trace_STAR_,new cljs.core.Keyword(null,"duration","duration",1444101068),duration__32150__auto___32545,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"end","end",-268185958),re_frame.interop.now()], 0)));
+var end__32149__auto___32547 = re_frame.interop.now();
+var duration__32150__auto___32548 = (end__32149__auto___32547 - new cljs.core.Keyword(null,"start","start",-355208981).cljs$core$IFn$_invoke$arity$1(re_frame.trace._STAR_current_trace_STAR_));
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(re_frame.trace.traces,cljs.core.conj,cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(re_frame.trace._STAR_current_trace_STAR_,new cljs.core.Keyword(null,"duration","duration",1444101068),duration__32150__auto___32548,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"end","end",-268185958),re_frame.interop.now()], 0)));
 
-re_frame.trace.run_tracing_callbacks_BANG_(end__32149__auto___32544);
+re_frame.trace.run_tracing_callbacks_BANG_(end__32149__auto___32547);
 } else {
 }
 }}finally {(re_frame.trace._STAR_current_trace_STAR_ = _STAR_current_trace_STAR__orig_val__32443);
 }} else {
 var effects = new cljs.core.Keyword(null,"effects","effects",-282369292).cljs$core$IFn$_invoke$arity$1(context);
 var effects_without_db = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(effects,new cljs.core.Keyword(null,"db","db",993250759));
-var temp__5735__auto___32549 = new cljs.core.Keyword(null,"db","db",993250759).cljs$core$IFn$_invoke$arity$1(effects);
-if(cljs.core.truth_(temp__5735__auto___32549)){
-var new_db_32550 = temp__5735__auto___32549;
-var fexpr__32464_32551 = re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(re_frame.fx.kind,new cljs.core.Keyword(null,"db","db",993250759),false);
-(fexpr__32464_32551.cljs$core$IFn$_invoke$arity$1 ? fexpr__32464_32551.cljs$core$IFn$_invoke$arity$1(new_db_32550) : fexpr__32464_32551.call(null,new_db_32550));
+var temp__5735__auto___32553 = new cljs.core.Keyword(null,"db","db",993250759).cljs$core$IFn$_invoke$arity$1(effects);
+if(cljs.core.truth_(temp__5735__auto___32553)){
+var new_db_32554 = temp__5735__auto___32553;
+var fexpr__32464_32555 = re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(re_frame.fx.kind,new cljs.core.Keyword(null,"db","db",993250759),false);
+(fexpr__32464_32555.cljs$core$IFn$_invoke$arity$1 ? fexpr__32464_32555.cljs$core$IFn$_invoke$arity$1(new_db_32554) : fexpr__32464_32555.call(null,new_db_32554));
 } else {
 }
 
@@ -143,26 +143,26 @@ var count__32467 = (0);
 var i__32468 = (0);
 while(true){
 if((i__32468 < count__32467)){
-var vec__32476 = chunk__32466.cljs$core$IIndexed$_nth$arity$2(null,i__32468);
-var effect_key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32476,(0),null);
-var effect_value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32476,(1),null);
-var temp__5733__auto___32552 = re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(re_frame.fx.kind,effect_key,false);
-if(cljs.core.truth_(temp__5733__auto___32552)){
-var effect_fn_32553 = temp__5733__auto___32552;
-(effect_fn_32553.cljs$core$IFn$_invoke$arity$1 ? effect_fn_32553.cljs$core$IFn$_invoke$arity$1(effect_value) : effect_fn_32553.call(null,effect_value));
+var vec__32475 = chunk__32466.cljs$core$IIndexed$_nth$arity$2(null,i__32468);
+var effect_key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32475,(0),null);
+var effect_value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32475,(1),null);
+var temp__5733__auto___32556 = re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(re_frame.fx.kind,effect_key,false);
+if(cljs.core.truth_(temp__5733__auto___32556)){
+var effect_fn_32560 = temp__5733__auto___32556;
+(effect_fn_32560.cljs$core$IFn$_invoke$arity$1 ? effect_fn_32560.cljs$core$IFn$_invoke$arity$1(effect_value) : effect_fn_32560.call(null,effect_value));
 } else {
 re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"warn","warn",-436710552),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: no handler registered for effect:",effect_key,". Ignoring."], 0));
 }
 
 
-var G__32558 = seq__32465;
-var G__32559 = chunk__32466;
-var G__32560 = count__32467;
-var G__32561 = (i__32468 + (1));
-seq__32465 = G__32558;
-chunk__32466 = G__32559;
-count__32467 = G__32560;
-i__32468 = G__32561;
+var G__32561 = seq__32465;
+var G__32562 = chunk__32466;
+var G__32563 = count__32467;
+var G__32564 = (i__32468 + (1));
+seq__32465 = G__32561;
+chunk__32466 = G__32562;
+count__32467 = G__32563;
+i__32468 = G__32564;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__32465);
@@ -170,36 +170,36 @@ if(temp__5735__auto__){
 var seq__32465__$1 = temp__5735__auto__;
 if(cljs.core.chunked_seq_QMARK_(seq__32465__$1)){
 var c__4556__auto__ = cljs.core.chunk_first(seq__32465__$1);
-var G__32562 = cljs.core.chunk_rest(seq__32465__$1);
-var G__32563 = c__4556__auto__;
-var G__32564 = cljs.core.count(c__4556__auto__);
-var G__32565 = (0);
-seq__32465 = G__32562;
-chunk__32466 = G__32563;
-count__32467 = G__32564;
-i__32468 = G__32565;
+var G__32568 = cljs.core.chunk_rest(seq__32465__$1);
+var G__32569 = c__4556__auto__;
+var G__32570 = cljs.core.count(c__4556__auto__);
+var G__32571 = (0);
+seq__32465 = G__32568;
+chunk__32466 = G__32569;
+count__32467 = G__32570;
+i__32468 = G__32571;
 continue;
 } else {
 var vec__32479 = cljs.core.first(seq__32465__$1);
 var effect_key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32479,(0),null);
 var effect_value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32479,(1),null);
-var temp__5733__auto___32566 = re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(re_frame.fx.kind,effect_key,false);
-if(cljs.core.truth_(temp__5733__auto___32566)){
-var effect_fn_32567 = temp__5733__auto___32566;
-(effect_fn_32567.cljs$core$IFn$_invoke$arity$1 ? effect_fn_32567.cljs$core$IFn$_invoke$arity$1(effect_value) : effect_fn_32567.call(null,effect_value));
+var temp__5733__auto___32572 = re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(re_frame.fx.kind,effect_key,false);
+if(cljs.core.truth_(temp__5733__auto___32572)){
+var effect_fn_32573 = temp__5733__auto___32572;
+(effect_fn_32573.cljs$core$IFn$_invoke$arity$1 ? effect_fn_32573.cljs$core$IFn$_invoke$arity$1(effect_value) : effect_fn_32573.call(null,effect_value));
 } else {
 re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"warn","warn",-436710552),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: no handler registered for effect:",effect_key,". Ignoring."], 0));
 }
 
 
-var G__32571 = cljs.core.next(seq__32465__$1);
-var G__32572 = null;
-var G__32573 = (0);
-var G__32574 = (0);
-seq__32465 = G__32571;
-chunk__32466 = G__32572;
-count__32467 = G__32573;
-i__32468 = G__32574;
+var G__32574 = cljs.core.next(seq__32465__$1);
+var G__32575 = null;
+var G__32576 = (0);
+var G__32577 = (0);
+seq__32465 = G__32574;
+chunk__32466 = G__32575;
+count__32467 = G__32576;
+i__32468 = G__32577;
 continue;
 }
 } else {
@@ -274,14 +274,14 @@ return re_frame.router.dispatch(dispatch);
 }
 
 
-var G__32586 = cljs.core.next(seq__32482__$1);
-var G__32587 = null;
-var G__32588 = (0);
+var G__32587 = cljs.core.next(seq__32482__$1);
+var G__32588 = null;
 var G__32589 = (0);
-seq__32482 = G__32586;
-chunk__32483 = G__32587;
-count__32484 = G__32588;
-i__32485 = G__32589;
+var G__32590 = (0);
+seq__32482 = G__32587;
+chunk__32483 = G__32588;
+count__32484 = G__32589;
+i__32485 = G__32590;
 continue;
 }
 } else {
@@ -318,14 +318,14 @@ re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyw
 }
 
 
-var G__32593 = seq__32494;
-var G__32594 = chunk__32495;
-var G__32595 = count__32496;
-var G__32596 = (i__32497 + (1));
-seq__32494 = G__32593;
-chunk__32495 = G__32594;
-count__32496 = G__32595;
-i__32497 = G__32596;
+var G__32594 = seq__32494;
+var G__32595 = chunk__32495;
+var G__32596 = count__32496;
+var G__32597 = (i__32497 + (1));
+seq__32494 = G__32594;
+chunk__32495 = G__32595;
+count__32496 = G__32596;
+i__32497 = G__32597;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__32494);
@@ -333,14 +333,14 @@ if(temp__5735__auto__){
 var seq__32494__$1 = temp__5735__auto__;
 if(cljs.core.chunked_seq_QMARK_(seq__32494__$1)){
 var c__4556__auto__ = cljs.core.chunk_first(seq__32494__$1);
-var G__32597 = cljs.core.chunk_rest(seq__32494__$1);
-var G__32598 = c__4556__auto__;
-var G__32599 = cljs.core.count(c__4556__auto__);
-var G__32600 = (0);
-seq__32494 = G__32597;
-chunk__32495 = G__32598;
-count__32496 = G__32599;
-i__32497 = G__32600;
+var G__32598 = cljs.core.chunk_rest(seq__32494__$1);
+var G__32599 = c__4556__auto__;
+var G__32600 = cljs.core.count(c__4556__auto__);
+var G__32601 = (0);
+seq__32494 = G__32598;
+chunk__32495 = G__32599;
+count__32496 = G__32600;
+i__32497 = G__32601;
 continue;
 } else {
 var vec__32507 = cljs.core.first(seq__32494__$1);
@@ -351,23 +351,23 @@ re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyw
 } else {
 }
 
-var temp__5733__auto___32601 = re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(re_frame.fx.kind,effect_key,false);
-if(cljs.core.truth_(temp__5733__auto___32601)){
-var effect_fn_32602 = temp__5733__auto___32601;
-(effect_fn_32602.cljs$core$IFn$_invoke$arity$1 ? effect_fn_32602.cljs$core$IFn$_invoke$arity$1(effect_value) : effect_fn_32602.call(null,effect_value));
+var temp__5733__auto___32602 = re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(re_frame.fx.kind,effect_key,false);
+if(cljs.core.truth_(temp__5733__auto___32602)){
+var effect_fn_32603 = temp__5733__auto___32602;
+(effect_fn_32603.cljs$core$IFn$_invoke$arity$1 ? effect_fn_32603.cljs$core$IFn$_invoke$arity$1(effect_value) : effect_fn_32603.call(null,effect_value));
 } else {
 re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"warn","warn",-436710552),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: in \":fx\" effect found ",effect_key," which has no associated handler. Ignoring."], 0));
 }
 
 
-var G__32603 = cljs.core.next(seq__32494__$1);
-var G__32604 = null;
-var G__32605 = (0);
+var G__32604 = cljs.core.next(seq__32494__$1);
+var G__32605 = null;
 var G__32606 = (0);
-seq__32494 = G__32603;
-chunk__32495 = G__32604;
-count__32496 = G__32605;
-i__32497 = G__32606;
+var G__32607 = (0);
+seq__32494 = G__32604;
+chunk__32495 = G__32605;
+count__32496 = G__32606;
+i__32497 = G__32607;
 continue;
 }
 } else {
