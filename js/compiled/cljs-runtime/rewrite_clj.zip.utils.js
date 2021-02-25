@@ -78,8 +78,8 @@ var temp__5733__auto__ = clojure.zip.left(zloc__$1);
 if(cljs.core.truth_(temp__5733__auto__)){
 var lloc = temp__5733__auto__;
 if(cljs.core.truth_((p_QMARK_.cljs$core$IFn$_invoke$arity$1 ? p_QMARK_.cljs$core$IFn$_invoke$arity$1(lloc) : p_QMARK_.call(null,lloc)))){
-var G__29854 = rewrite_clj.zip.utils.remove_left(zloc__$1);
-zloc__$1 = G__29854;
+var G__29852 = rewrite_clj.zip.utils.remove_left(zloc__$1);
+zloc__$1 = G__29852;
 continue;
 } else {
 return zloc__$1;

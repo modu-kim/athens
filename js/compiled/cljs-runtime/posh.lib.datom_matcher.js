@@ -92,16 +92,16 @@ new_patterns = G__34107;
 leftover_patterns = G__34108;
 continue;
 } else {
-var G__34109 = entids;
-var G__34110 = rest_datom;
-var G__34111 = cljs.core.rest(patterns);
-var G__34112 = new_patterns;
-var G__34113 = cljs.core.cons(cljs.core.first(patterns),leftover_patterns);
-entids = G__34109;
-rest_datom = G__34110;
-patterns = G__34111;
-new_patterns = G__34112;
-leftover_patterns = G__34113;
+var G__34110 = entids;
+var G__34111 = rest_datom;
+var G__34112 = cljs.core.rest(patterns);
+var G__34113 = new_patterns;
+var G__34114 = cljs.core.cons(cljs.core.first(patterns),leftover_patterns);
+entids = G__34110;
+rest_datom = G__34111;
+patterns = G__34112;
+new_patterns = G__34113;
+leftover_patterns = G__34114;
 continue;
 }
 }
@@ -125,10 +125,10 @@ new_patterns = G__34115;
 leftover_patterns = G__34116;
 continue;
 } else {
-var G__34117 = cljs.core.cons(cljs.core.first(leftover_patterns),new_patterns);
-var G__34118 = cljs.core.rest(leftover_patterns);
-new_patterns = G__34117;
-leftover_patterns = G__34118;
+var G__34120 = cljs.core.cons(cljs.core.first(leftover_patterns),new_patterns);
+var G__34121 = cljs.core.rest(leftover_patterns);
+new_patterns = G__34120;
+leftover_patterns = G__34121;
 continue;
 }
 }

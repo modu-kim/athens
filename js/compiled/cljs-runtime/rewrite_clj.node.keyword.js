@@ -273,14 +273,14 @@ return (new rewrite_clj.node.keyword.KeywordNode(new cljs.core.Keyword(null,"k",
  */
 rewrite_clj.node.keyword.keyword_node = (function rewrite_clj$node$keyword$keyword_node(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___29413 = arguments.length;
-var i__4737__auto___29414 = (0);
+var len__4736__auto___29410 = arguments.length;
+var i__4737__auto___29411 = (0);
 while(true){
-if((i__4737__auto___29414 < len__4736__auto___29413)){
-args__4742__auto__.push((arguments[i__4737__auto___29414]));
+if((i__4737__auto___29411 < len__4736__auto___29410)){
+args__4742__auto__.push((arguments[i__4737__auto___29411]));
 
-var G__29415 = (i__4737__auto___29414 + (1));
-i__4737__auto___29414 = G__29415;
+var G__29412 = (i__4737__auto___29411 + (1));
+i__4737__auto___29411 = G__29412;
 continue;
 } else {
 }
@@ -291,9 +291,9 @@ var argseq__4743__auto__ = ((((1) < args__4742__auto__.length))?(new cljs.core.I
 return rewrite_clj.node.keyword.keyword_node.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4743__auto__);
 });
 
-(rewrite_clj.node.keyword.keyword_node.cljs$core$IFn$_invoke$arity$variadic = (function (k,p__29400){
-var vec__29401 = p__29400;
-var namespaced_QMARK_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29401,(0),null);
+(rewrite_clj.node.keyword.keyword_node.cljs$core$IFn$_invoke$arity$variadic = (function (k,p__29395){
+var vec__29396 = p__29395;
+var namespaced_QMARK_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29396,(0),null);
 if((k instanceof cljs.core.Keyword)){
 } else {
 throw (new Error("Assert failed: (keyword? k)"));
@@ -305,11 +305,11 @@ return rewrite_clj.node.keyword.__GT_KeywordNode(k,namespaced_QMARK_);
 (rewrite_clj.node.keyword.keyword_node.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(rewrite_clj.node.keyword.keyword_node.cljs$lang$applyTo = (function (seq29397){
-var G__29398 = cljs.core.first(seq29397);
-var seq29397__$1 = cljs.core.next(seq29397);
+(rewrite_clj.node.keyword.keyword_node.cljs$lang$applyTo = (function (seq29393){
+var G__29394 = cljs.core.first(seq29393);
+var seq29393__$1 = cljs.core.next(seq29393);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__29398,seq29397__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__29394,seq29393__$1);
 }));
 
 

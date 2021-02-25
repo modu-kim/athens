@@ -156,10 +156,10 @@ var count__41655_41687 = (0);
 var i__41656_41688 = (0);
 while(true){
 if((i__41656_41688 < count__41655_41687)){
-var vec__41663_41689 = chunk__41654_41686.cljs$core$IIndexed$_nth$arity$2(null,i__41656_41688);
-var tag_41690 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41663_41689,(0),null);
-var read_fn_41691 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41663_41689,(1),null);
-cljs.reader.register_tag_parser_BANG_(tag_41690,read_fn_41691);
+var vec__41663_41691 = chunk__41654_41686.cljs$core$IIndexed$_nth$arity$2(null,i__41656_41688);
+var tag_41692 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41663_41691,(0),null);
+var read_fn_41693 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41663_41691,(1),null);
+cljs.reader.register_tag_parser_BANG_(tag_41692,read_fn_41693);
 
 
 var G__41696 = seq__41653_41685;

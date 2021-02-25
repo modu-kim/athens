@@ -11,12 +11,12 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(index,counter)){
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"line","line",212345235),line,new cljs.core.Keyword(null,"column","column",2078222095),col], null);
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("\n",cljs.core.get.cljs$core$IFn$_invoke$arity$2(text,counter))){
-var G__46665 = (line + (1));
-var G__46666 = (1);
-var G__46667 = (counter + (1));
-line = G__46665;
-col = G__46666;
-counter = G__46667;
+var G__46666 = (line + (1));
+var G__46667 = (1);
+var G__46668 = (counter + (1));
+line = G__46666;
+col = G__46667;
+counter = G__46668;
 continue;
 } else {
 var G__46669 = line;
