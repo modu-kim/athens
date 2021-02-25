@@ -5,14 +5,14 @@ goog.provide('sci.impl.multimethods');
  */
 sci.impl.multimethods.check_valid_options = (function sci$impl$multimethods$check_valid_options(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___62720 = arguments.length;
-var i__4737__auto___62721 = (0);
+var len__4736__auto___62722 = arguments.length;
+var i__4737__auto___62724 = (0);
 while(true){
-if((i__4737__auto___62721 < len__4736__auto___62720)){
-args__4742__auto__.push((arguments[i__4737__auto___62721]));
+if((i__4737__auto___62724 < len__4736__auto___62722)){
+args__4742__auto__.push((arguments[i__4737__auto___62724]));
 
-var G__62723 = (i__4737__auto___62721 + (1));
-i__4737__auto___62721 = G__62723;
+var G__62726 = (i__4737__auto___62724 + (1));
+i__4737__auto___62724 = G__62726;
 continue;
 } else {
 }

@@ -92,9 +92,9 @@ posh.lib.update.update_filter_q = (function posh$lib$update$update_filter_q(posh
 return posh.lib.update.filter_q_transform_analysis(new cljs.core.Keyword(null,"analysis","analysis",-1362593389).cljs$core$IFn$_invoke$arity$1(posh.lib.update.update_q_with_dbvarmap(posh_tree,storage_key)));
 });
 posh.lib.update.update_posh_item = (function posh$lib$update$update_posh_item(posh_tree,storage_key){
-var G__36003 = cljs.core.first(storage_key);
-var G__36003__$1 = (((G__36003 instanceof cljs.core.Keyword))?G__36003.fqn:null);
-switch (G__36003__$1) {
+var G__36004 = cljs.core.first(storage_key);
+var G__36004__$1 = (((G__36004 instanceof cljs.core.Keyword))?G__36004.fqn:null);
+switch (G__36004__$1) {
 case "pull":
 return posh.lib.update.update_pull(posh_tree,storage_key);
 
@@ -108,7 +108,7 @@ return posh.lib.update.update_filter_pull(posh_tree,storage_key);
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__36003__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__36004__$1)].join('')));
 
 }
 });

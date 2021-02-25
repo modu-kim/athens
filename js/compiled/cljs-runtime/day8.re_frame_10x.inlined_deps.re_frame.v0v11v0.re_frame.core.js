@@ -30,8 +30,8 @@ day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.clear_cofx = cljs.
  * chain.
  */
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_db = (function day8$re_frame_10x$inlined_deps$re_frame$v0v11v0$re_frame$core$reg_event_db(var_args){
-var G__27872 = arguments.length;
-switch (G__27872) {
+var G__27869 = arguments.length;
+switch (G__27869) {
 case 2:
 return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -69,8 +69,8 @@ return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events.register(
  * and, later, action effects.
  */
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_fx = (function day8$re_frame_10x$inlined_deps$re_frame$v0v11v0$re_frame$core$reg_event_fx(var_args){
-var G__27874 = arguments.length;
-switch (G__27874) {
+var G__27871 = arguments.length;
+switch (G__27871) {
 case 2:
 return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -104,8 +104,8 @@ return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events.register(
  *   This form of registration is almost never used. 
  */
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_ctx = (function day8$re_frame_10x$inlined_deps$re_frame$v0v11v0$re_frame$core$reg_event_ctx(var_args){
-var G__27879 = arguments.length;
-switch (G__27879) {
+var G__27876 = arguments.length;
+switch (G__27876) {
 case 2:
 return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_ctx.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -244,8 +244,8 @@ return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.router.event_que
  *   
  */
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.add_post_event_callback = (function day8$re_frame_10x$inlined_deps$re_frame$v0v11v0$re_frame$core$add_post_event_callback(var_args){
-var G__27891 = arguments.length;
-switch (G__27891) {
+var G__27888 = arguments.length;
+switch (G__27888) {
 case 1:
 return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.add_post_event_callback.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
