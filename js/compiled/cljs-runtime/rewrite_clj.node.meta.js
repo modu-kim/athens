@@ -207,15 +207,15 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(this$__$1,new cljs.core.Key
 (rewrite_clj.node.meta.MetaNode.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4387__auto__,k__4388__auto__,G__29482){
 var self__ = this;
 var this__4387__auto____$1 = this;
-var pred__29500 = cljs.core.keyword_identical_QMARK_;
-var expr__29501 = k__4388__auto__;
-if(cljs.core.truth_((pred__29500.cljs$core$IFn$_invoke$arity$2 ? pred__29500.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"tag","tag",-1290361223),expr__29501) : pred__29500.call(null,new cljs.core.Keyword(null,"tag","tag",-1290361223),expr__29501)))){
+var pred__29497 = cljs.core.keyword_identical_QMARK_;
+var expr__29498 = k__4388__auto__;
+if(cljs.core.truth_((pred__29497.cljs$core$IFn$_invoke$arity$2 ? pred__29497.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"tag","tag",-1290361223),expr__29498) : pred__29497.call(null,new cljs.core.Keyword(null,"tag","tag",-1290361223),expr__29498)))){
 return (new rewrite_clj.node.meta.MetaNode(G__29482,self__.prefix,self__.children,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((pred__29500.cljs$core$IFn$_invoke$arity$2 ? pred__29500.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"prefix","prefix",-265908465),expr__29501) : pred__29500.call(null,new cljs.core.Keyword(null,"prefix","prefix",-265908465),expr__29501)))){
+if(cljs.core.truth_((pred__29497.cljs$core$IFn$_invoke$arity$2 ? pred__29497.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"prefix","prefix",-265908465),expr__29498) : pred__29497.call(null,new cljs.core.Keyword(null,"prefix","prefix",-265908465),expr__29498)))){
 return (new rewrite_clj.node.meta.MetaNode(self__.tag,G__29482,self__.children,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((pred__29500.cljs$core$IFn$_invoke$arity$2 ? pred__29500.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"children","children",-940561982),expr__29501) : pred__29500.call(null,new cljs.core.Keyword(null,"children","children",-940561982),expr__29501)))){
+if(cljs.core.truth_((pred__29497.cljs$core$IFn$_invoke$arity$2 ? pred__29497.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"children","children",-940561982),expr__29498) : pred__29497.call(null,new cljs.core.Keyword(null,"children","children",-940561982),expr__29498)))){
 return (new rewrite_clj.node.meta.MetaNode(self__.tag,self__.prefix,G__29482,self__.__meta,self__.__extmap,null));
 } else {
 return (new rewrite_clj.node.meta.MetaNode(self__.tag,self__.prefix,self__.children,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4388__auto__,G__29482),null));
@@ -271,11 +271,11 @@ return (new rewrite_clj.node.meta.MetaNode(tag,prefix,children,null,null,null));
  * Factory function for rewrite-clj.node.meta/MetaNode, taking a map of keywords to field values.
  */
 rewrite_clj.node.meta.map__GT_MetaNode = (function rewrite_clj$node$meta$map__GT_MetaNode(G__29486){
-var extmap__4419__auto__ = (function (){var G__29503 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__29486,new cljs.core.Keyword(null,"tag","tag",-1290361223),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"prefix","prefix",-265908465),new cljs.core.Keyword(null,"children","children",-940561982)], 0));
+var extmap__4419__auto__ = (function (){var G__29500 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__29486,new cljs.core.Keyword(null,"tag","tag",-1290361223),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"prefix","prefix",-265908465),new cljs.core.Keyword(null,"children","children",-940561982)], 0));
 if(cljs.core.record_QMARK_(G__29486)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29503);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29500);
 } else {
-return G__29503;
+return G__29500;
 }
 })();
 return (new rewrite_clj.node.meta.MetaNode(new cljs.core.Keyword(null,"tag","tag",-1290361223).cljs$core$IFn$_invoke$arity$1(G__29486),new cljs.core.Keyword(null,"prefix","prefix",-265908465).cljs$core$IFn$_invoke$arity$1(G__29486),new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(G__29486),null,cljs.core.not_empty(extmap__4419__auto__),null));
@@ -285,8 +285,8 @@ return (new rewrite_clj.node.meta.MetaNode(new cljs.core.Keyword(null,"tag","tag
  * Create node representing a form and its metadata.
  */
 rewrite_clj.node.meta.meta_node = (function rewrite_clj$node$meta$meta_node(var_args){
-var G__29505 = arguments.length;
-switch (G__29505) {
+var G__29502 = arguments.length;
+switch (G__29502) {
 case 1:
 return rewrite_clj.node.meta.meta_node.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -318,8 +318,8 @@ return rewrite_clj.node.meta.meta_node.cljs$core$IFn$_invoke$arity$1(new cljs.co
  * `#^` prefix.
  */
 rewrite_clj.node.meta.raw_meta_node = (function rewrite_clj$node$meta$raw_meta_node(var_args){
-var G__29507 = arguments.length;
-switch (G__29507) {
+var G__29506 = arguments.length;
+switch (G__29506) {
 case 1:
 return rewrite_clj.node.meta.raw_meta_node.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

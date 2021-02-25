@@ -118,10 +118,10 @@ if(cljs.core.truth_(idx)){
 if(cljs.core.empty_QMARK_(nwp)){
 return idx;
 } else {
-var G__28159 = zprint.focus.right_ssv(cljs.core.first(nwp),ssv,zprint.focus.down_ssv(ssv,idx));
-var G__28160 = cljs.core.next(nwp);
-idx = G__28159;
-nwp = G__28160;
+var G__28161 = zprint.focus.right_ssv(cljs.core.first(nwp),ssv,zprint.focus.down_ssv(ssv,idx));
+var G__28162 = cljs.core.next(nwp);
+idx = G__28161;
+nwp = G__28162;
 continue;
 }
 } else {

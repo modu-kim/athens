@@ -193,17 +193,17 @@ continue;
 break;
 }
 
+var G__62870 = vals;
+vals = G__62870;
+continue;
+} else {
+if(edamame.impl.parser.non_match_QMARK_(next_val)){
 var G__62871 = vals;
 vals = G__62871;
 continue;
 } else {
-if(edamame.impl.parser.non_match_QMARK_(next_val)){
-var G__62872 = vals;
+var G__62872 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
 vals = G__62872;
-continue;
-} else {
-var G__62873 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
-vals = G__62873;
 continue;
 
 }
@@ -237,18 +237,18 @@ return edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2(reader,"Er
 sb.append(ch);
 
 if(("\\" === ch)){
-var ch_62874__$1 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-if((ch_62874__$1 == null)){
+var ch_62873__$1 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+if((ch_62873__$1 == null)){
 edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2(reader,"Error while parsing regex");
 } else {
 }
 
-sb.append(ch_62874__$1);
+sb.append(ch_62873__$1);
 } else {
 }
 
-var G__62875 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-ch = G__62875;
+var G__62874 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+ch = G__62874;
 continue;
 }
 }
@@ -277,12 +277,12 @@ var freq = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__62782,(1),null);
 if((freq > (1))){
 cljs.core.chunk_append(b__62781,id);
 
-var G__62876 = (i__62780 + (1));
-i__62780 = G__62876;
+var G__62875 = (i__62780 + (1));
+i__62780 = G__62875;
 continue;
 } else {
-var G__62877 = (i__62780 + (1));
-i__62780 = G__62877;
+var G__62876 = (i__62780 + (1));
+i__62780 = G__62876;
 continue;
 }
 } else {
@@ -302,8 +302,8 @@ var freq = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__62785,(1),null);
 if((freq > (1))){
 return cljs.core.cons(id,edamame$impl$parser$duplicate_keys_error_$_duplicates_$_iter__62778(cljs.core.rest(s__62779__$2)));
 } else {
-var G__62878 = cljs.core.rest(s__62779__$2);
-s__62779__$1 = G__62878;
+var G__62877 = cljs.core.rest(s__62779__$2);
+s__62779__$1 = G__62877;
 continue;
 }
 }

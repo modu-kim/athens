@@ -691,8 +691,8 @@ return (new cljs.tools.reader.reader_types.PushbackReader((new cljs.tools.reader
  * Creates an IndexingPushbackReader from a given string or PushbackReader
  */
 cljs.tools.reader.reader_types.indexing_push_back_reader = (function cljs$tools$reader$reader_types$indexing_push_back_reader(var_args){
-var G__24230 = arguments.length;
-switch (G__24230) {
+var G__24232 = arguments.length;
+switch (G__24232) {
 case 1:
 return cljs.tools.reader.reader_types.indexing_push_back_reader.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -773,10 +773,10 @@ while(true){
 if(cljs.tools.reader.impl.utils.newline_QMARK_(c)){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(s);
 } else {
-var G__24260 = rdr.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-var G__24261 = s.append(c);
-c = G__24260;
-s = G__24261;
+var G__24266 = rdr.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+var G__24267 = s.append(c);
+c = G__24266;
+s = G__24267;
 continue;
 }
 break;

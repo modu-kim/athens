@@ -68,8 +68,8 @@ var n__4613__auto__ = fs.length;
 var i = (0);
 while(true){
 if((i < n__4613__auto__)){
-var fexpr__31590_31602 = (fs[i]);
-(fexpr__31590_31602.cljs$core$IFn$_invoke$arity$0 ? fexpr__31590_31602.cljs$core$IFn$_invoke$arity$0() : fexpr__31590_31602.call(null));
+var fexpr__31598_31602 = (fs[i]);
+(fexpr__31598_31602.cljs$core$IFn$_invoke$arity$0 ? fexpr__31598_31602.cljs$core$IFn$_invoke$arity$0() : fexpr__31598_31602.call(null));
 
 var G__31603 = (i + (1));
 i = G__31603;
@@ -130,10 +130,10 @@ return null;
 } else {
 (self__.scheduled_QMARK_ = true);
 
-var G__31591 = (function (){
+var G__31599 = (function (){
 return this$.run_queues();
 });
-return (reagent.impl.batching.next_tick.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.batching.next_tick.cljs$core$IFn$_invoke$arity$1(G__31591) : reagent.impl.batching.next_tick.call(null,G__31591));
+return (reagent.impl.batching.next_tick.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.batching.next_tick.cljs$core$IFn$_invoke$arity$1(G__31599) : reagent.impl.batching.next_tick.call(null,G__31599));
 }
 }));
 
