@@ -27,9 +27,9 @@ if(cljs.core.empty_QMARK_(suffix)){
 return (rewrite_clj.node.token_node.cljs$core$IFn$_invoke$arity$2 ? rewrite_clj.node.token_node.cljs$core$IFn$_invoke$arity$2(value,value_string) : rewrite_clj.node.token_node.call(null,value,value_string));
 } else {
 var s = rewrite_clj.parser.token.join_2(value_string,suffix);
-var G__29659 = (rewrite_clj.reader.read_string.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.reader.read_string.cljs$core$IFn$_invoke$arity$1(s) : rewrite_clj.reader.read_string.call(null,s));
-var G__29660 = s;
-return (rewrite_clj.node.token_node.cljs$core$IFn$_invoke$arity$2 ? rewrite_clj.node.token_node.cljs$core$IFn$_invoke$arity$2(G__29659,G__29660) : rewrite_clj.node.token_node.call(null,G__29659,G__29660));
+var G__29657 = (rewrite_clj.reader.read_string.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.reader.read_string.cljs$core$IFn$_invoke$arity$1(s) : rewrite_clj.reader.read_string.call(null,s));
+var G__29658 = s;
+return (rewrite_clj.node.token_node.cljs$core$IFn$_invoke$arity$2 ? rewrite_clj.node.token_node.cljs$core$IFn$_invoke$arity$2(G__29657,G__29658) : rewrite_clj.node.token_node.call(null,G__29657,G__29658));
 }
 });
 /**

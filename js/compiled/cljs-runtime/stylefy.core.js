@@ -51,8 +51,8 @@ goog.provide('stylefy.core');
  * Options is an optional map, which contains HTML attributes (:class, :href, :src etc.).
  */
 stylefy.core.use_style = (function stylefy$core$use_style(var_args){
-var G__55466 = arguments.length;
-switch (G__55466) {
+var G__55456 = arguments.length;
+switch (G__55456) {
 case 1:
 return stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -299,11 +299,11 @@ return null;
 (stylefy.core.keyframes.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(stylefy.core.keyframes.cljs$lang$applyTo = (function (seq55477){
-var G__55478 = cljs.core.first(seq55477);
-var seq55477__$1 = cljs.core.next(seq55477);
+(stylefy.core.keyframes.cljs$lang$applyTo = (function (seq55482){
+var G__55483 = cljs.core.first(seq55482);
+var seq55482__$1 = cljs.core.next(seq55482);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__55478,seq55477__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__55483,seq55482__$1);
 }));
 
 /**

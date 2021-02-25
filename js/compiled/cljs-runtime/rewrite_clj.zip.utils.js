@@ -1,9 +1,9 @@
 goog.provide('rewrite_clj.zip.utils');
 rewrite_clj.zip.utils.update_in_path = (function rewrite_clj$zip$utils$update_in_path(p__29814,k,f){
-var vec__29817 = p__29814;
-var node = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29817,(0),null);
-var path = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29817,(1),null);
-var loc = vec__29817;
+var vec__29815 = p__29814;
+var node = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29815,(0),null);
+var path = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29815,(1),null);
+var loc = vec__29815;
 var v = cljs.core.get.cljs$core$IFn$_invoke$arity$2(path,k);
 if(cljs.core.seq(v)){
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [node,cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(path,k,(f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(v) : f.call(null,v)),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"changed?","changed?",-437828330),true], 0))], null),cljs.core.meta(loc));

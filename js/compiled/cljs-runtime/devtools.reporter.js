@@ -66,11 +66,11 @@ return console.error("FATAL: report-internal-error! failed",e__$1);
 (devtools.reporter.report_internal_error_BANG_.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(devtools.reporter.report_internal_error_BANG_.cljs$lang$applyTo = (function (seq23309){
-var G__23310 = cljs.core.first(seq23309);
-var seq23309__$1 = cljs.core.next(seq23309);
+(devtools.reporter.report_internal_error_BANG_.cljs$lang$applyTo = (function (seq23307){
+var G__23308 = cljs.core.first(seq23307);
+var seq23307__$1 = cljs.core.next(seq23307);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23310,seq23309__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23308,seq23307__$1);
 }));
 
 
